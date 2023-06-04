@@ -1,0 +1,84 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Enabled": true,
+            "Model": "Sphere",
+            "Type": "class renderable",
+            "mbUseDefaultModel": true
+        },
+        {
+            "Collider Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Collider Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Collider Scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Collider Shape": "Spherical",
+            "Enabled": true,
+            "Type": "struct DynamicCollider"
+        },
+        {
+            "Drag": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Enabled": true,
+            "Gravity": {
+                "x": 0.0,
+                "y": -4.800000011920929,
+                "z": 0.0
+            },
+            "Mass": 10.0,
+            "Type": "struct Rigidbody",
+            "Velocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        }
+    ],
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 15.0
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 1.5,
+            "y": 1.5,
+            "z": 1.5
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "mName": "yo_sup_0"
+}

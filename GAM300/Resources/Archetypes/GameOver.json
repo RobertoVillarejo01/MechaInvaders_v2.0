@@ -1,0 +1,73 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/GameOver/GameOver.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false
+        }
+    ],
+    "Tag": 0,
+    "Transform": {
+        "Forward": {
+            "x": -0.02456659823656082,
+            "y": 0.0,
+            "z": -0.999697744846344
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": -193.03497314453125,
+            "y": -17.301816940307617,
+            "z": 22.981103897094727
+        },
+        "Right": {
+            "x": 0.999697744846344,
+            "y": 0.0,
+            "z": -0.02456659823656082
+        },
+        "Scale": {
+            "x": 0.0968237817287445,
+            "y": 0.09682401269674301,
+            "z": 0.04841189086437225
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        },
+        "mRightChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "mUpChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "mViewChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "GameOver"
+}

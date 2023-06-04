@@ -1,0 +1,66 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 0.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/FixText/FixText.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        },
+        {
+            "Delay": 2.440000057220459,
+            "Enabled": true,
+            "FadeSpeed": 1.1299999952316284,
+            "Type": "class FadeInOut"
+        }
+    ],
+    "Tag": 1,
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 1.3465394973754883,
+            "y": -7.215793609619141,
+            "z": -48.903717041015625
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 0.055622000247240067,
+            "y": 0.055622000247240067,
+            "z": 0.055622000247240067
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "FixText"
+}

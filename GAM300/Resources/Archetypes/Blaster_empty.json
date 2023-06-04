@@ -1,0 +1,60 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 0.8314449191093445,
+                "y": 0.9901960492134094,
+                "z": 0.31550365686416626
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Weapons/Blaster.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        }
+    ],
+    "Tag": 0,
+    "Transform": {
+        "Forward": {
+            "x": 1.768297437365618e-07,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 1.0794906616210938,
+            "y": -1.1278610229492188,
+            "z": -4.2624359130859375
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 65.0794906616211,
+            "y": 88.87213897705078,
+            "z": -240.26243591308594
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 1.768297437365618e-07
+        },
+        "Scale": {
+            "x": 0.009999999776482582,
+            "y": 0.009999999776482582,
+            "z": 0.009999999776482582
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "Blaster_empty"
+}

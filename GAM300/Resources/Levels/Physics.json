@@ -1,0 +1,482 @@
+{
+    "Current Level": "Physics",
+    "Spaces": [
+        {
+            "GameObjects": [
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 1.0,
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            },
+                            "Enabled": true,
+                            "Model": "Cube",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": true,
+                            "mbVisible": true,
+                            "mbZIndependent": false
+                        },
+                        {
+                            "Collider Offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Collider Scale": {
+                                "x": 27.171268463134766,
+                                "y": 1.0,
+                                "z": 17.764556884765625
+                            },
+                            "Collider Shape": "Cubic",
+                            "Enabled": true,
+                            "Ghost": false,
+                            "Type": "struct StaticCollider"
+                        }
+                    ],
+                    "Tag": 0,
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 14.835600852966309,
+                            "z": -29.013607025146484
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 92.92573547363281,
+                            "y": 3.419999837875366,
+                            "z": 60.75477981567383
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "UseParentDirection": false,
+                    "UseParentPos": true,
+                    "mName": "Floor"
+                },
+                {
+                    "Childs": [
+                        {
+                            "Childs": [
+                                {
+                                    "Tag": 0,
+                                    "Transform": {
+                                        "Forward": {
+                                            "x": 1.768297437365618e-07,
+                                            "y": 0.0,
+                                            "z": -1.0
+                                        },
+                                        "Offset": {
+                                            "x": 0.0,
+                                            "y": 0.9655208587646484,
+                                            "z": -1.9121241569519043
+                                        },
+                                        "Orientation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "Position": {
+                                            "x": 27.829023361206055,
+                                            "y": 47.42057800292969,
+                                            "z": -32.621482849121094
+                                        },
+                                        "Right": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 1.768297437365618e-07
+                                        },
+                                        "Scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "Up": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0
+                                        },
+                                        "mRightChild": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "mUpChild": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0
+                                        },
+                                        "mViewChild": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": -1.0
+                                        }
+                                    },
+                                    "UseParentDirection": false,
+                                    "UseParentPos": true,
+                                    "mName": "ShootingPos"
+                                },
+                                {
+                                    "Tag": 0,
+                                    "Transform": {
+                                        "Forward": {
+                                            "x": 1.768297437365618e-07,
+                                            "y": 0.0,
+                                            "z": -1.0
+                                        },
+                                        "Offset": {
+                                            "x": 0.00211334228515625,
+                                            "y": 1.4260978698730469,
+                                            "z": 2.3691887855529785
+                                        },
+                                        "Orientation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "Position": {
+                                            "x": 27.83113670349121,
+                                            "y": 47.88115310668945,
+                                            "z": -28.34016990661621
+                                        },
+                                        "Right": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 1.768297437365618e-07
+                                        },
+                                        "Scale": {
+                                            "x": 0.10000000149011612,
+                                            "y": 0.10000000149011612,
+                                            "z": 0.10000000149011612
+                                        },
+                                        "Up": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0
+                                        },
+                                        "mRightChild": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "mUpChild": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0
+                                        },
+                                        "mViewChild": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": -1.0
+                                        }
+                                    },
+                                    "UseParentDirection": false,
+                                    "UseParentPos": true,
+                                    "mName": "AimPos"
+                                }
+                            ],
+                            "Components": [
+                                {
+                                    "Color": {
+                                        "w": 1.0,
+                                        "x": 0.9921568632125854,
+                                        "y": 0.019607843831181526,
+                                        "z": 0.019607843831181526
+                                    },
+                                    "Enabled": true,
+                                    "Model": "./../Resources/Model/AK69/AK69.fbx",
+                                    "Type": "class renderable",
+                                    "mbEmitter": false,
+                                    "mbUseDefaultModel": false,
+                                    "mbVisible": true,
+                                    "mbZIndependent": false
+                                },
+                                {
+                                    "AimSpeed": 7.300000190734863,
+                                    "BulletSpeed": 1470.0,
+                                    "CoolDown": 0.10000000149011612,
+                                    "Enabled": true,
+                                    "FinalFov": 50.0,
+                                    "RecoilDistance": 0.30000001192092896,
+                                    "RecoilDistorsion": {
+                                        "x": 0.20000000298023224,
+                                        "y": 0.5
+                                    },
+                                    "RecoilIterations": 5.901759624481201,
+                                    "TargetFar": 50.0,
+                                    "Type": "class Weapon",
+                                    "angle_to_reload": -35.0,
+                                    "charger_size": 30,
+                                    "end_distance": 5.5,
+                                    "initial_distance": 2.0,
+                                    "reload_speed": 30.0,
+                                    "total_bullets": 1000
+                                }
+                            ],
+                            "Tag": 0,
+                            "Transform": {
+                                "Forward": {
+                                    "x": 1.768297437365618e-07,
+                                    "y": 0.0,
+                                    "z": -1.0
+                                },
+                                "Offset": {
+                                    "x": 1.0794882774353027,
+                                    "y": -1.9873542785644531,
+                                    "z": -4.717441082000732
+                                },
+                                "Orientation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "Position": {
+                                    "x": 27.829023361206055,
+                                    "y": 46.455055236816406,
+                                    "z": -30.70935821533203
+                                },
+                                "Right": {
+                                    "x": 1.0,
+                                    "y": 0.0,
+                                    "z": 1.768297437365618e-07
+                                },
+                                "Scale": {
+                                    "x": 0.10000000149011612,
+                                    "y": 0.10000000149011612,
+                                    "z": 0.10000000149011612
+                                },
+                                "Up": {
+                                    "x": 0.0,
+                                    "y": 1.0,
+                                    "z": 0.0
+                                },
+                                "mRightChild": {
+                                    "x": 1.0,
+                                    "y": 0.0,
+                                    "z": 1.768297437365618e-07
+                                },
+                                "mUpChild": {
+                                    "x": 0.0,
+                                    "y": 1.0,
+                                    "z": 0.0
+                                },
+                                "mViewChild": {
+                                    "x": 1.768297437365618e-07,
+                                    "y": 0.0,
+                                    "z": -1.0
+                                }
+                            },
+                            "UseParentDirection": false,
+                            "UseParentPos": true,
+                            "mName": "Weapon"
+                        }
+                    ],
+                    "Components": [
+                        {
+                            "Drag": {
+                                "x": 0.9900000095367432,
+                                "y": 0.9900000095367432,
+                                "z": 0.9900000095367432
+                            },
+                            "Enabled": true,
+                            "Gravity": {
+                                "x": 0.0,
+                                "y": -9.0,
+                                "z": 0.0
+                            },
+                            "Mass": 7.0,
+                            "Type": "struct Rigidbody",
+                            "Velocity": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Collider Offset": {
+                                "x": 0.0,
+                                "y": -16.41712188720703,
+                                "z": 0.0
+                            },
+                            "Collider Scale": {
+                                "x": 3.0,
+                                "y": 14.973445892333984,
+                                "z": 3.0
+                            },
+                            "Collider Shape": "Spherical",
+                            "Enabled": true,
+                            "Ghost": false,
+                            "Type": "struct DynamicCollider"
+                        },
+                        {
+                            "Enabled": true,
+                            "Type": "class SoundListener",
+                            "listenerID": 1,
+                            "max_distance": 50.0,
+                            "min_distance": 0.0
+                        },
+                        {
+                            "Color": {
+                                "w": 1.0,
+                                "x": 0.9960784316062927,
+                                "y": 0.05882352963089943,
+                                "z": 0.7176470756530762
+                            },
+                            "Enabled": true,
+                            "Model": "Cube",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": true,
+                            "mbVisible": true,
+                            "mbZIndependent": false
+                        },
+                        {
+                            "AirSpeed": 0.30000001192092896,
+                            "Enabled": true,
+                            "JumpForce": 8000.0,
+                            "JumpSpeed": 0.699999988079071,
+                            "MoveSpeed": 1.0,
+                            "Run_Fov": 55.0,
+                            "SlopeGravity": 200.0,
+                            "SprintCooldown": 1.0,
+                            "SprintLimit": 2.5,
+                            "SprintSpeed": 1.7000000476837158,
+                            "StunDisplacement": 10.0,
+                            "StunTime": 0.20000000298023224,
+                            "Type": "class Player"
+                        },
+                        {
+                            "Enabled": true,
+                            "Type": "class CameraComp",
+                            "mAngle": 60.0,
+                            "mFar": 700.0,
+                            "mLightActionRadius": 300.0,
+                            "mNear": 0.05000000074505806,
+                            "mPosition": {
+                                "x": 26.749534606933594,
+                                "y": 48.44240951538086,
+                                "z": -25.99191665649414
+                            },
+                            "mShadowLightRadius": 150.0,
+                            "mTarget": {
+                                "x": 26.749534606933594,
+                                "y": 48.44240951538086,
+                                "z": -26.99191665649414
+                            },
+                            "mbDefaultValues": true,
+                            "mbDrawDebug": false,
+                            "mbStaticCamera": false
+                        },
+                        {
+                            "Enabled": true,
+                            "Type": "class PlayerCamera",
+                            "mbStaticCamera": false
+                        },
+                        {
+                            "Enabled": true,
+                            "Type": "class Health"
+                        }
+                    ],
+                    "Tag": 1,
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 26.749534606933594,
+                            "y": 48.44240951538086,
+                            "z": -25.99191665649414
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 3.0,
+                            "y": 38.83182907104492,
+                            "z": 3.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "UseParentDirection": false,
+                    "UseParentPos": true,
+                    "mName": "Player0"
+                }
+            ],
+            "Space Name": "MainArea",
+            "Visible": true
+        }
+    ]
+}

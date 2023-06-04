@@ -1,0 +1,82 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Enabled": true,
+            "Mesh": "./../Resources/Meshes/sphere.obj",
+            "Type": "class renderable"
+        },
+        {
+            "Collider Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Collider Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Collider Scale": {
+                "x": 5.0,
+                "y": 5.0,
+                "z": 5.0
+            },
+            "Collider Shape": "Spherical",
+            "Enabled": true,
+            "Type": "struct DynamicCollider"
+        },
+        {
+            "Drag": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Enabled": true,
+            "Gravity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Mass": 1.0,
+            "Type": "struct Rigidbody",
+            "Velocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        }
+    ],
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 4.371138828673793e-08
+        },
+        "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Right": {
+            "x": 0.9999999403953552,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 5.0,
+            "y": 5.0,
+            "z": 5.0
+        },
+        "Up": {
+            "x": 0.0,
+            "y": -4.371138828673793e-08,
+            "z": -1.0
+        }
+    }
+}

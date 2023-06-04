@@ -1,0 +1,184 @@
+{
+    "Childs": [
+        {
+            "Tag": 0,
+            "Transform": {
+                "Forward": {
+                    "x": 1.768297437365618e-07,
+                    "y": 0.0,
+                    "z": -1.0
+                },
+                "Offset": {
+                    "x": 0.21306610107421875,
+                    "y": 0.60443115234375,
+                    "z": -2.7441368103027344
+                },
+                "Orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Position": {
+                    "x": 65.29255676269531,
+                    "y": 88.695556640625,
+                    "z": -242.49461364746094
+                },
+                "Right": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 1.768297437365618e-07
+                },
+                "Scale": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 0.10000000149011612
+                },
+                "Up": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                }
+            },
+            "UseParentDirection": false,
+            "UseParentPos": true,
+            "mName": "ShootingPos"
+        },
+        {
+            "Tag": 0,
+            "Transform": {
+                "Forward": {
+                    "x": 1.768297437365618e-07,
+                    "y": 0.0,
+                    "z": -1.0
+                },
+                "Offset": {
+                    "x": 0.22499847412109375,
+                    "y": 1.0883865356445313,
+                    "z": 2.163135528564453
+                },
+                "Orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Position": {
+                    "x": 65.30448913574219,
+                    "y": 89.17951202392578,
+                    "z": -237.58734130859375
+                },
+                "Right": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 1.768297437365618e-07
+                },
+                "Scale": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 0.10000000149011612
+                },
+                "Up": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                }
+            },
+            "UseParentDirection": false,
+            "UseParentPos": true,
+            "mName": "AimPos"
+        }
+    ],
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 0.9999899864196777,
+                "z": 0.9999899864196777
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Weapons/AK69Arms.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": false,
+            "mbZIndependent": false
+        },
+        {
+            "AimSpeed": 7.300000190734863,
+            "BulletSpeed": 1470.0,
+            "CoolDown": 0.15000000596046448,
+            "Enabled": true,
+            "FinalFov": 50.0,
+            "RecoilDistance": 0.6000000238418579,
+            "RecoilDistorsion": {
+                "x": 0.10000000149011612,
+                "y": 0.30000001192092896
+            },
+            "TargetFar": 50.0,
+            "Type": "class Weapon",
+            "angle_to_reload": -40.0,
+            "automatic_weapon": true,
+            "charger_size": 30,
+            "end_distance": 5.5,
+            "gun_damage": 5.0,
+            "infinity_ammo": false,
+            "initial_distance": 2.0,
+            "recoil_back_velocity": 30.0,
+            "recoil_front_velocity": 15.0,
+            "recoil_gun_angle": 2.0,
+            "reload_speed": 100.0,
+            "time_to_reload": 0.5,
+            "total_bullets": 210
+        },
+        {
+            "Enabled": true,
+            "Type": "class SoundEmitter",
+            "default_global": true,
+            "default_loop": false,
+            "default_pause": false,
+            "default_sound": "",
+            "default_volume": 1.0
+        }
+    ],
+    "Tag": 0,
+    "Transform": {
+        "Forward": {
+            "x": 1.768297437365618e-07,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 1.0794906616210938,
+            "y": -1.90887451171875,
+            "z": -3.7504730224609375
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 65.0794906616211,
+            "y": 88.09112548828125,
+            "z": -239.75047302246094
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 1.768297437365618e-07
+        },
+        "Scale": {
+            "x": 0.009999999776482582,
+            "y": 0.009999999776482582,
+            "z": 0.009999999776482582
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "Weapon"
+}

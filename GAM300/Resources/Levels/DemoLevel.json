@@ -1,0 +1,347 @@
+{
+    "Current Level": "DemoLevel",
+    "Spaces": [
+        {
+            "GameObjects": [
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 1.0,
+                                "y": 0.9999899864196777,
+                                "z": 0.9999899864196777
+                            },
+                            "Enabled": true,
+                            "Model": "Cube",
+                            "Type": "class renderable",
+                            "mbUseDefaultModel": true
+                        },
+                        {
+                            "Collider Offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Collider Position": {
+                                "x": -0.7319815754890442,
+                                "y": 7.690520286560059,
+                                "z": -0.5501307249069214
+                            },
+                            "Collider Scale": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Collider Shape": "Cubic",
+                            "Enabled": true,
+                            "Type": "struct StaticCollider"
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Pitch": 0.0,
+                        "Position": {
+                            "x": -0.7319815754890442,
+                            "y": 7.690520286560059,
+                            "z": -0.5501307249069214
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Roll": 0.0,
+                        "Scale": {
+                            "x": 14.925600051879883,
+                            "y": 2.0453171730041504,
+                            "z": 5.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "Yaw": 0.0
+                    },
+                    "mName": "Floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 0.6617647409439087,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Enabled": true,
+                            "Model": "Cube",
+                            "Type": "class renderable",
+                            "mbUseDefaultModel": true
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Pitch": 0.0,
+                        "Position": {
+                            "x": -0.8515306711196899,
+                            "y": 8.138484001159668,
+                            "z": 9.150731086730957
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Roll": 0.0,
+                        "Scale": {
+                            "x": 10.0,
+                            "y": 10.0,
+                            "z": 10.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "Yaw": 0.0
+                    },
+                    "mName": "Front"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Enabled": true,
+                            "Model": "Cube",
+                            "Type": "class renderable",
+                            "mbUseDefaultModel": true
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Pitch": 0.0,
+                        "Position": {
+                            "x": 12.92759895324707,
+                            "y": 8.746121406555176,
+                            "z": 0.0
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Roll": 0.0,
+                        "Scale": {
+                            "x": 10.0,
+                            "y": 10.0,
+                            "z": 10.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "Yaw": 0.0
+                    },
+                    "mName": "Left"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 0.1321984827518463,
+                                "y": 0.0,
+                                "z": 0.6421568393707275
+                            },
+                            "Enabled": true,
+                            "Model": "Cube",
+                            "Type": "class renderable",
+                            "mbUseDefaultModel": true
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Pitch": 0.0,
+                        "Position": {
+                            "x": -0.02775430679321289,
+                            "y": 8.619876861572266,
+                            "z": -8.85727310180664
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Roll": 0.0,
+                        "Scale": {
+                            "x": 10.0,
+                            "y": 10.0,
+                            "z": 1.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "Yaw": 0.0
+                    },
+                    "mName": "Back"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 0.11363518238067627,
+                                "y": 1.0,
+                                "z": 0.0
+                            },
+                            "Enabled": true,
+                            "Model": "Cube",
+                            "Type": "class renderable",
+                            "mbUseDefaultModel": true
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Pitch": 0.0,
+                        "Position": {
+                            "x": -15.164470672607422,
+                            "y": 9.943410873413086,
+                            "z": 0.0
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Roll": 0.0,
+                        "Scale": {
+                            "x": 10.0,
+                            "y": 10.0,
+                            "z": 10.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "Yaw": 0.0
+                    },
+                    "mName": "Right"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Enabled": true,
+                            "Model": "Sphere",
+                            "Type": "class renderable",
+                            "mbUseDefaultModel": true
+                        },
+                        {
+                            "Enabled": true,
+                            "Type": "class NetGameplayMrg"
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Pitch": 0.0,
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Roll": 0.0,
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "Yaw": 0.0
+                    },
+                    "mName": "Manager"
+                }
+            ],
+            "Space Name": "MainArea",
+            "Visible": true
+        }
+    ]
+}

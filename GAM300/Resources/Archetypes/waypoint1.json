@@ -1,0 +1,60 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Notification/Notification.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        }
+    ],
+    "Tag": 1,
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 3.274808883666992,
+            "y": 163.37258911132813,
+            "z": -472.40313720703125
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 0.4002479910850525,
+            "y": 0.4002479910850525,
+            "z": 0.4002479910850525
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "waypoint1"
+}

@@ -1,0 +1,100 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 0.999994695186615,
+                "z": 0.9999899864196777
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/AgilityVendingMachine/AgilityVendingMachine.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        },
+        {
+            "Collider Offset": {
+                "x": 0.0,
+                "y": -0.5824127197265625,
+                "z": 0.0
+            },
+            "Collider Scale": {
+                "x": 15.78433609008789,
+                "y": 29.66366958618164,
+                "z": 8.449944496154785
+            },
+            "Collider Shape": "Cubic",
+            "Enabled": true,
+            "Ghost": false,
+            "Type": "struct StaticCollider"
+        },
+        {
+            "Enabled": true,
+            "Type": "class InteractionComp",
+            "active": true,
+            "mType": 3,
+            "range": 30.0
+        },
+        {
+            "Enabled": true,
+            "Type": "class VendingMachine",
+            "cost": 2500,
+            "hp_increase": 0.0,
+            "mType": 2,
+            "velocity_increase": 1.0
+        },
+        {
+            "Enabled": true,
+            "Type": "class SoundEmitter",
+            "default_global": true,
+            "default_loop": false,
+            "default_pause": false,
+            "default_sound": "",
+            "default_volume": 1.0
+        }
+    ],
+    "Tag": 10,
+    "Transform": {
+        "Forward": {
+            "x": -1.9907020032405853e-08,
+            "y": -0.9999999403953552,
+            "z": 8.74227694680485e-08
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 26.305282592773438,
+            "y": 41.23957824707031,
+            "z": -287.458251953125
+        },
+        "Right": {
+            "x": 1.0,
+            "y": -1.9907018256049014e-08,
+            "z": 1.9623714156061624e-15
+        },
+        "Scale": {
+            "x": 0.4885907471179962,
+            "y": 0.4885907471179962,
+            "z": 0.4885907471179962
+        },
+        "Up": {
+            "x": 0.0,
+            "y": -8.742277657347586e-08,
+            "z": -1.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "AgilityVendingMachine"
+}

@@ -1,0 +1,186 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 0.9999899864196777,
+                "y": 1.0,
+                "z": 0.999991774559021
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/CommunicationTask/CommunicationTask.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        },
+        {
+            "Enabled": true,
+            "Type": "class TaskInfo",
+            "available": false,
+            "interactible": true,
+            "interaction_range": 50.0,
+            "maxprogress": 0.0,
+            "offset_warning": 10.0,
+            "room": 0,
+            "score_per_iteration": 0.0,
+            "tag": 2,
+            "time_to_score": 0.0
+        },
+        {
+            "Enabled": true,
+            "Type": "class CommunicationTask",
+            "num_rot180": false,
+            "num_rot90": true
+        },
+        {
+            "Enabled": true,
+            "Type": "class ParticleSystem",
+            "circle": true,
+            "circle_turn90": false,
+            "mColorRange": {
+                "Begin": {
+                    "Begin": {
+                        "w": 0.0,
+                        "x": 1.0,
+                        "y": 0.9999899864196777,
+                        "z": 0.9999899864196777
+                    },
+                    "End": {
+                        "w": 0.0,
+                        "x": 1.0,
+                        "y": 0.9999899864196777,
+                        "z": 0.9999899864196777
+                    }
+                },
+                "End": {
+                    "Begin": {
+                        "w": 1.0,
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "End": {
+                        "w": 1.0,
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                }
+            },
+            "mEmitRate": 5.0,
+            "mLifeTimeRange": {
+                "Begin": 0.5,
+                "End": 2.0
+            },
+            "mMaxParticles": 100,
+            "mScaleRange": {
+                "Begin": {
+                    "Begin": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "End": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                "End": {
+                    "Begin": {
+                        "x": 1.5,
+                        "y": 1.5,
+                        "z": 1.5
+                    },
+                    "End": {
+                        "x": 1.5,
+                        "y": 1.5,
+                        "z": 1.5
+                    }
+                }
+            },
+            "mTexture": "./../Resources/Textures/Particles/question.png",
+            "mVelocityRange": {
+                "Begin": {
+                    "x": -5.0,
+                    "y": 3.0,
+                    "z": -5.0
+                },
+                "End": {
+                    "x": 5.0,
+                    "y": 3.0,
+                    "z": 5.0
+                }
+            },
+            "mbActive": false,
+            "mbLerpColor": true,
+            "mbLerpScale": true,
+            "mbRandomFinalColor": false,
+            "mbRandomFinalScale": false,
+            "mbRandomInitialColor": false,
+            "mbRandomInitialScale": false,
+            "mbVisible": true,
+            "mbZIndependent": false,
+            "radious": 4.0
+        },
+        {
+            "Enabled": true,
+            "Type": "class InteractionComp",
+            "active": true,
+            "mType": 2,
+            "range": 70.0
+        },
+        {
+            "Enabled": true,
+            "Type": "class SoundEmitter",
+            "default_global": true,
+            "default_loop": false,
+            "default_pause": false,
+            "default_sound": "",
+            "default_volume": 1.0
+        }
+    ],
+    "Tag": 7,
+    "Transform": {
+        "Forward": {
+            "x": 1.0,
+            "y": 8.865043810146744e-08,
+            "z": -1.0716286169554223e-07
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 20.12062644958496,
+            "y": 14.305662155151367,
+            "z": -56.20647430419922
+        },
+        "Right": {
+            "x": 1.0716286169554223e-07,
+            "y": -8.617760016704779e-08,
+            "z": 1.0
+        },
+        "Scale": {
+            "x": 0.09166200459003448,
+            "y": 0.09166198968887329,
+            "z": 0.13636286556720734
+        },
+        "Up": {
+            "x": -8.865043099604009e-08,
+            "y": 1.0,
+            "z": 8.617760727247514e-08
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "Communication2"
+}

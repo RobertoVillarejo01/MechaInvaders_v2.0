@@ -1,0 +1,60 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 0.6980392336845398,
+                "y": 0.04313725605607033,
+                "z": 0.04313725605607033
+            },
+            "Enabled": true,
+            "Model": "Cube",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": true,
+            "mbVisible": true,
+            "mbZIndependent": false
+        }
+    ],
+    "Tag": 0,
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 64.0,
+            "y": 90.0,
+            "z": -236.0
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 3.0,
+            "y": 38.83182907104492,
+            "z": 3.0
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "Player_empty"
+}

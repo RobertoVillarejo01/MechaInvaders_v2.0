@@ -1,0 +1,221 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Totem/Totem.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        },
+        {
+            "Drag": {
+                "x": 0.9900000095367432,
+                "y": 0.9900000095367432,
+                "z": 0.9900000095367432
+            },
+            "Enabled": true,
+            "Gravity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Mass": 1.0,
+            "Type": "struct Rigidbody",
+            "Velocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Collider Offset": {
+                "x": 0.0,
+                "y": 7.5145263671875,
+                "z": 6.747955322265625
+            },
+            "Collider Scale": {
+                "x": 13.571414947509766,
+                "y": 18.16822052001953,
+                "z": 13.154328346252441
+            },
+            "Collider Shape": "Cubic",
+            "Enabled": true,
+            "Ghost": false,
+            "Type": "struct StaticCollider"
+        },
+        {
+            "Enabled": true,
+            "Type": "class SoundEmitter",
+            "default_global": true,
+            "default_loop": false,
+            "default_pause": false,
+            "default_sound": "",
+            "default_volume": 1.0
+        },
+        {
+            "Enabled": true,
+            "Type": "class TaskInfo",
+            "available": false,
+            "interactible": true,
+            "interaction_range": 70.0,
+            "maxprogress": 100.0,
+            "room": 0,
+            "score_per_iteration": 2.0,
+            "tag": 1,
+            "time_to_score": 0.20000000298023224
+        },
+        {
+            "Enabled": true,
+            "Type": "class FixingTask",
+            "order_per_iteration": 1,
+            "spawner_amount": 4
+        },
+        {
+            "Enabled": true,
+            "Type": "class ParticleSystem",
+            "circle": false,
+            "circle_turn90": false,
+            "mColorRange": {
+                "Begin": {
+                    "Begin": {
+                        "w": 0.0,
+                        "x": 0.20588237047195435,
+                        "y": 0.03431373089551926,
+                        "z": 0.03431373089551926
+                    },
+                    "End": {
+                        "w": 0.0,
+                        "x": 0.20588237047195435,
+                        "y": 0.03431373089551926,
+                        "z": 0.03431373089551926
+                    }
+                },
+                "End": {
+                    "Begin": {
+                        "w": 1.0,
+                        "x": 0.4449378252029419,
+                        "y": 0.4852941036224365,
+                        "z": 0.03330450877547264
+                    },
+                    "End": {
+                        "w": 1.0,
+                        "x": 0.4449378252029419,
+                        "y": 0.4852941036224365,
+                        "z": 0.03330450877547264
+                    }
+                }
+            },
+            "mEmitRate": 5.0,
+            "mLifeTimeRange": {
+                "Begin": 0.5,
+                "End": 2.0
+            },
+            "mMaxParticles": 100,
+            "mScaleRange": {
+                "Begin": {
+                    "Begin": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "End": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                "End": {
+                    "Begin": {
+                        "x": 3.0,
+                        "y": 3.0,
+                        "z": 3.0
+                    },
+                    "End": {
+                        "x": 3.0,
+                        "y": 3.0,
+                        "z": 3.0
+                    }
+                }
+            },
+            "mVelocityRange": {
+                "Begin": {
+                    "x": -5.0,
+                    "y": 3.0,
+                    "z": -5.0
+                },
+                "End": {
+                    "x": 5.0,
+                    "y": 3.0,
+                    "z": 5.0
+                }
+            },
+            "mbActive": false,
+            "mbLerpColor": true,
+            "mbLerpScale": true,
+            "mbRandomFinalColor": false,
+            "mbRandomFinalScale": false,
+            "mbRandomInitialColor": false,
+            "mbRandomInitialScale": false,
+            "mbVisible": true,
+            "mbZIndependent": false,
+            "radious": 0.0
+        },
+        {
+            "Enabled": true,
+            "Type": "class InteractionComp",
+            "active": false,
+            "mType": 2,
+            "mbTriggerAction": false,
+            "range": 70.0
+        }
+    ],
+    "Tag": 7,
+    "Transform": {
+        "Forward": {
+            "x": -0.03615801781415939,
+            "y": 9.132877210049628e-08,
+            "z": 0.999346911907196
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 2.6736984252929688,
+            "y": -99.53082275390625,
+            "z": 171.4508514404297
+        },
+        "Right": {
+            "x": -0.999346911907196,
+            "y": -8.333406498195473e-08,
+            "z": -0.03615801781415939
+        },
+        "Scale": {
+            "x": 0.2000000923871994,
+            "y": 0.20000000298023224,
+            "z": 0.2000000923871994
+        },
+        "Up": {
+            "x": -7.997724082997593e-08,
+            "y": 1.0,
+            "z": -9.428216429796521e-08
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "Totem"
+}

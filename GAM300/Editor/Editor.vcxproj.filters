@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{cf1d1f59-3563-48c7-abf1-5bb5d604fe13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{5a5948f3-1ee6-4be4-8e81-281d6852a27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Camera">
+      <UniqueIdentifier>{348aa824-15df-4b52-86d7-d9c2b79fcf72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Basic Functionalities">
+      <UniqueIdentifier>{6649f164-04e0-4432-ac0a-c4830d9de865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Basic Functionalities\Object Selection">
+      <UniqueIdentifier>{a1180a7d-e623-4b90-9171-d47299530e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Basic Functionalities\MainBar">
+      <UniqueIdentifier>{a5606da5-3f04-4b23-b437-89141c503bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Basic Functionalities\LevelEdition">
+      <UniqueIdentifier>{b07cad8b-5090-480b-96b3-24b410ca7c30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_opengl3.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_sdl.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ImGuizmo.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Editor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera\EditorCamera.hpp">
+      <Filter>src\Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_opengl3.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_sdl.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\ImGuizmo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Editor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera\EditorCamera.cpp">
+      <Filter>src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BasicFunctionalities\ObjectSelection\Selection.cpp">
+      <Filter>src\Basic Functionalities\Object Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BasicFunctionalities\MainBar\MainBar.cpp">
+      <Filter>src\Basic Functionalities\MainBar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BasicFunctionalities\LevelEdition\LevelTree.cpp">
+      <Filter>src\Basic Functionalities\LevelEdition</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BasicFunctionalities\LevelEdition\LevelEdit.cpp">
+      <Filter>src\Basic Functionalities\LevelEdition</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

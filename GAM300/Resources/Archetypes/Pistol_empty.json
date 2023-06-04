@@ -1,0 +1,60 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 0.31550365686416626,
+                "y": 0.9901960492134094,
+                "z": 0.9703519344329834
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Weapons/Pistol.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        }
+    ],
+    "Tag": 0,
+    "Transform": {
+        "Forward": {
+            "x": 1.768297437365618e-07,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 1.0794906616210938,
+            "y": -1.1278610229492188,
+            "z": -3.2467193603515625
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 65.0794906616211,
+            "y": 88.87213897705078,
+            "z": -239.24671936035156
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 1.768297437365618e-07
+        },
+        "Scale": {
+            "x": 0.03636143356561661,
+            "y": 0.05752440169453621,
+            "z": 0.20847345888614655
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "Pistol_empty"
+}

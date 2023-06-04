@@ -1,0 +1,1059 @@
+{
+    "Current Level": "Lighting",
+    "Spaces": [
+        {
+            "GameObjects": [
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Enabled": true,
+                            "Model": "./../Resources/Model/Buzz/Buzz.fbx",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": false
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": -0.5502163171768188,
+                            "y": 0.0,
+                            "z": 0.8350203633308411
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 21.84691619873047,
+                            "y": -2.3828978538513184,
+                            "z": 73.61791229248047
+                        },
+                        "Right": {
+                            "x": -0.8350203633308411,
+                            "y": 0.0,
+                            "z": -0.5502163171768188
+                        },
+                        "Scale": {
+                            "x": 1.440000057220459,
+                            "y": 1.440000057220459,
+                            "z": 1.440000057220459
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "Buzzlightyear"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Enabled": true,
+                            "Model": "./../Resources/Model/Toadette/Toadette.fbx",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": false
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": -0.028674140572547913,
+                            "y": 0.9995765089988708,
+                            "z": 0.0043226080015301704
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": -166.2464141845703,
+                            "y": -11.593145370483398,
+                            "z": -60.843101501464844
+                        },
+                        "Right": {
+                            "x": 0.9706512093544006,
+                            "y": 0.02887200005352497,
+                            "z": -0.2387402206659317
+                        },
+                        "Scale": {
+                            "x": 0.9999998211860657,
+                            "y": 0.9999998211860657,
+                            "z": 0.9999998807907104
+                        },
+                        "Up": {
+                            "x": 0.2387622743844986,
+                            "y": 0.0026507629081606865,
+                            "z": 0.9710701107978821
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "Toadetter"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Enabled": true,
+                            "Model": "./../Resources/Model/Blitz/Blitz.fbx",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": false
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": -0.03140437602996826,
+                            "y": -9.69439639675329e-10,
+                            "z": 0.9995068311691284
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 166.9608154296875,
+                            "y": -3.419055223464966,
+                            "z": -167.91403198242188
+                        },
+                        "Right": {
+                            "x": -0.9841156005859375,
+                            "y": -0.17481179535388947,
+                            "z": -0.030920997262001038
+                        },
+                        "Scale": {
+                            "x": 0.9999920725822449,
+                            "y": 0.9999970197677612,
+                            "z": 0.9999951124191284
+                        },
+                        "Up": {
+                            "x": -0.1747254878282547,
+                            "y": 0.9846017360687256,
+                            "z": -0.005489819683134556
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "Blitz"
+                },
+                {
+                    "Components": [
+                        {
+                            "Ambient": {
+                                "x": 0.058822937309741974,
+                                "y": 0.058822937309741974,
+                                "z": 0.05882352590560913
+                            },
+                            "Diffuse": {
+                                "x": 1.0,
+                                "y": 0.9999899864196777,
+                                "z": 0.9999899864196777
+                            },
+                            "Direction": {
+                                "x": -8.0,
+                                "y": -4.0,
+                                "z": 4.0
+                            },
+                            "Enabled": true,
+                            "Far": 247.0,
+                            "LightType": 2,
+                            "Near": 34.0,
+                            "Projection Size": 77.0,
+                            "Specular": {
+                                "x": 1.0,
+                                "y": 0.9999899864196777,
+                                "z": 0.9999899864196777
+                            },
+                            "Type": "class LightComponent",
+                            "constAttenuation": 0.19900000095367432,
+                            "linearAttenuation": 0.007000000216066837,
+                            "quadrAttenuation": 0.0,
+                            "spotExponent": 3.5,
+                            "spotInnerAngle": 27.663999557495117,
+                            "spotOuterAngle": 51.78099822998047
+                        },
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 1.0,
+                                "y": 0.1764705777168274,
+                                "z": 0.1764705777168274
+                            },
+                            "Enabled": true,
+                            "Model": "Sphere",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": true
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": -109.1663818359375,
+                            "y": 26.504762649536133,
+                            "z": -99.67120361328125
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "Light"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 1.0,
+                                "y": 0.9999899864196777,
+                                "z": 0.9999899864196777
+                            },
+                            "Enabled": true,
+                            "Model": "./../Resources/Meshes/fancy_cube.fbx",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": false
+                        },
+                        {
+                            "Collider Offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Collider Scale": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Collider Shape": "Cylindrical",
+                            "Enabled": true,
+                            "Ghost": false,
+                            "Type": "struct StaticCollider"
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 12.782264709472656,
+                            "y": -23.382694244384766,
+                            "z": 12.650774002075195
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 695.5040283203125,
+                            "y": 4.351333141326904,
+                            "z": 815.9080200195313
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "Floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "Ambient": {
+                                "x": 9.999999974752427e-07,
+                                "y": 9.999899930335232e-07,
+                                "z": 9.999899930335232e-07
+                            },
+                            "Diffuse": {
+                                "x": 1.0,
+                                "y": 0.9999899864196777,
+                                "z": 0.9999899864196777
+                            },
+                            "Direction": {
+                                "x": -13.0,
+                                "y": -27.0,
+                                "z": 37.0
+                            },
+                            "Enabled": true,
+                            "Far": 284.0,
+                            "LightType": 0,
+                            "Near": 14.0,
+                            "Projection Size": 200.0,
+                            "Specular": {
+                                "x": 1.0,
+                                "y": 0.9999899864196777,
+                                "z": 0.9999899864196777
+                            },
+                            "Type": "class LightComponent",
+                            "constAttenuation": 1.0,
+                            "linearAttenuation": 0.004999999888241291,
+                            "quadrAttenuation": 0.0,
+                            "spotExponent": 8.5,
+                            "spotInnerAngle": 19.607999801635742,
+                            "spotOuterAngle": 53.013999938964844
+                        },
+                        {
+                            "Color": {
+                                "w": 1.0,
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            },
+                            "Enabled": true,
+                            "Model": "Sphere",
+                            "Type": "class renderable",
+                            "mbEmitter": true,
+                            "mbUseDefaultModel": true
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.04601909592747688,
+                            "y": 0.0,
+                            "z": -0.998940110206604
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": -44.341064453125,
+                            "y": 42.08684539794922,
+                            "z": 65.94998168945313
+                        },
+                        "Right": {
+                            "x": 0.998940110206604,
+                            "y": 0.0,
+                            "z": 0.04601909592747688
+                        },
+                        "Scale": {
+                            "x": 7.529991149902344,
+                            "y": 7.529999732971191,
+                            "z": 7.529991149902344
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "Light2"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 0.1895664930343628,
+                                "y": 0.20721112191677094,
+                                "z": 0.7892156839370728
+                            },
+                            "Enabled": true,
+                            "Model": "Sphere",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": true
+                        },
+                        {
+                            "Ambient": {
+                                "x": 0.9901924729347229,
+                                "y": 0.9901861548423767,
+                                "z": 0.9901960492134094
+                            },
+                            "Diffuse": {
+                                "x": 1.0,
+                                "y": 0.9999899864196777,
+                                "z": 0.9999899864196777
+                            },
+                            "Direction": {
+                                "x": -4.0,
+                                "y": -7.0,
+                                "z": 21.0
+                            },
+                            "Enabled": true,
+                            "Far": 343.0,
+                            "LightType": 0,
+                            "Near": 5.0,
+                            "Projection Size": 224.0,
+                            "Specular": {
+                                "x": 1.0,
+                                "y": 0.9999899864196777,
+                                "z": 0.9999899864196777
+                            },
+                            "Type": "class LightComponent",
+                            "constAttenuation": 0.22599999606609344,
+                            "linearAttenuation": 0.008999999612569809,
+                            "quadrAttenuation": 0.0,
+                            "spotExponent": 7.5,
+                            "spotInnerAngle": 13.562000274658203,
+                            "spotOuterAngle": 41.30099868774414
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 97.46383666992188,
+                            "y": 28.72992515563965,
+                            "z": -191.82264709472656
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "Light3"
+                },
+                {
+                    "Childs": [
+                        {
+                            "Childs": [
+                                {
+                                    "Transform": {
+                                        "Forward": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": -1.0
+                                        },
+                                        "Offset": {
+                                            "x": 0.0,
+                                            "y": 0.9684653282165527,
+                                            "z": 3.2023496627807617
+                                        },
+                                        "Orientation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "Position": {
+                                            "x": -2.27725887298584,
+                                            "y": -4.573034763336182,
+                                            "z": -3.6780946254730225
+                                        },
+                                        "Right": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "Scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "Up": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0
+                                        },
+                                        "mRightChild": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "mUpChild": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0
+                                        },
+                                        "mViewChild": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": -1.0
+                                        }
+                                    },
+                                    "mName": "ShootingPos"
+                                },
+                                {
+                                    "Transform": {
+                                        "Forward": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": -1.0
+                                        },
+                                        "Offset": {
+                                            "x": 0.0021152496337890625,
+                                            "y": 1.4341578483581543,
+                                            "z": -0.71703040599823
+                                        },
+                                        "Orientation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "Position": {
+                                            "x": -2.279374122619629,
+                                            "y": -4.10734224319458,
+                                            "z": 0.24128544330596924
+                                        },
+                                        "Right": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "Scale": {
+                                            "x": 0.10000000149011612,
+                                            "y": 0.10000000149011612,
+                                            "z": 0.10000000149011612
+                                        },
+                                        "Up": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0
+                                        },
+                                        "mRightChild": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "mUpChild": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0
+                                        },
+                                        "mViewChild": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": -1.0
+                                        }
+                                    },
+                                    "mName": "AimPos"
+                                }
+                            ],
+                            "Components": [
+                                {
+                                    "Color": {
+                                        "w": 0.0,
+                                        "x": 0.9901960492134094,
+                                        "y": 0.019415607675909996,
+                                        "z": 0.019415607675909996
+                                    },
+                                    "Enabled": true,
+                                    "Model": "./../Resources/Model/AK69/AK69.fbx",
+                                    "Type": "class renderable",
+                                    "mbEmitter": false,
+                                    "mbUseDefaultModel": false
+                                },
+                                {
+                                    "AimSpeed": 5.0,
+                                    "BulletSpeed": 400.0,
+                                    "CoolDown": 0.10000000149011612,
+                                    "Enabled": true,
+                                    "RecoilDistance": 0.20000000298023224,
+                                    "Type": "class Weapon"
+                                }
+                            ],
+                            "Transform": {
+                                "Forward": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": -1.0
+                                },
+                                "Offset": {
+                                    "x": -1.2295211553573608,
+                                    "y": -1.987354040145874,
+                                    "z": 3.2832655906677246
+                                },
+                                "Orientation": {
+                                    "x": -90.0,
+                                    "y": 180.0,
+                                    "z": 0.0
+                                },
+                                "Position": {
+                                    "x": -2.27725887298584,
+                                    "y": -5.541500091552734,
+                                    "z": -0.47574496269226074
+                                },
+                                "Right": {
+                                    "x": 1.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "Scale": {
+                                    "x": 0.10000000149011612,
+                                    "y": 0.10000000149011612,
+                                    "z": 0.10000000149011612
+                                },
+                                "Up": {
+                                    "x": 0.0,
+                                    "y": 1.0,
+                                    "z": 0.0
+                                },
+                                "mRightChild": {
+                                    "x": 1.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "mUpChild": {
+                                    "x": 0.0,
+                                    "y": 1.0,
+                                    "z": 0.0
+                                },
+                                "mViewChild": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": -1.0
+                                }
+                            },
+                            "mName": "Weapon"
+                        }
+                    ],
+                    "Components": [
+                        {
+                            "Drag": {
+                                "x": 0.9900000095367432,
+                                "y": 0.9900000095367432,
+                                "z": 0.9900000095367432
+                            },
+                            "Enabled": true,
+                            "Gravity": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Mass": 1.0,
+                            "Type": "struct Rigidbody",
+                            "Velocity": {
+                                "x": 0.0,
+                                "y": -0.09786093235015869,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Collider Offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Collider Scale": {
+                                "x": 0.0,
+                                "y": 0.7564334869384766,
+                                "z": 0.0
+                            },
+                            "Collider Shape": "Cubic",
+                            "Enabled": true,
+                            "Ghost": false,
+                            "Type": "struct DynamicCollider"
+                        },
+                        {
+                            "Enabled": true,
+                            "Type": "class Player"
+                        },
+                        {
+                            "Enabled": true,
+                            "Type": "class SoundListener",
+                            "listenerID": 1,
+                            "max_distance": 50.0,
+                            "min_distance": 0.0
+                        },
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 1.0,
+                                "y": 0.5784313678741455,
+                                "z": 0.15686273574829102
+                            },
+                            "Enabled": true,
+                            "Model": "Cube",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": true
+                        },
+                        {
+                            "Enabled": true,
+                            "Type": "class CameraComp",
+                            "mAngle": 60.0,
+                            "mCubeMap": "./../Resources/Textures/Cubemaps/blue/blue.cube",
+                            "mFar": 700.0,
+                            "mNear": 0.48500001430511475,
+                            "mPosition": {
+                                "x": 1.0060068368911743,
+                                "y": -3.5541460514068604,
+                                "z": 0.7537761926651001
+                            },
+                            "mTarget": {
+                                "x": 0.006006836891174316,
+                                "y": -3.5541460514068604,
+                                "z": 0.7537761926651001
+                            },
+                            "mbDefaultValues": true,
+                            "mbStaticCamera": false
+                        },
+                        {
+                            "Enabled": true,
+                            "Type": "class PlayerCamera",
+                            "mbStaticCamera": false
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": -1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 1.0060068368911743,
+                            "y": -3.5541460514068604,
+                            "z": 0.7537761926651001
+                        },
+                        "Right": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Scale": {
+                            "x": 3.0,
+                            "y": 10.0,
+                            "z": 3.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "Player"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Enabled": true,
+                            "Model": "Sphere",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": true
+                        },
+                        {
+                            "Drag": {
+                                "x": 0.9900000095367432,
+                                "y": 0.9900000095367432,
+                                "z": 0.9900000095367432
+                            },
+                            "Enabled": true,
+                            "Gravity": {
+                                "x": 0.0,
+                                "y": -4.0,
+                                "z": 0.0
+                            },
+                            "Mass": 1.0,
+                            "Type": "struct Rigidbody",
+                            "Velocity": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Collider Offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Collider Scale": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Collider Shape": "Cylindrical",
+                            "Enabled": true,
+                            "Ghost": false,
+                            "Type": "struct DynamicCollider"
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 70.09455108642578,
+                            "y": -6.434911727905273,
+                            "z": 170.114990234375
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 7.684424877166748,
+                            "y": 7.684424877166748,
+                            "z": 7.684424877166748
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "cylTest"
+                }
+            ],
+            "Space Name": "MainArea",
+            "Visible": true
+        }
+    ]
+}

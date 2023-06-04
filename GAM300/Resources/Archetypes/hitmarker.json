@@ -1,0 +1,76 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 0.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/hitmarker/hitmarker.fbx",
+            "Type": "class renderable",
+            "mbUseDefaultModel": false
+        },
+        {
+            "Delay": 3.0,
+            "Enabled": true,
+            "FadeSpeed": 0.5,
+            "Type": "class FadeOut"
+        }
+    ],
+    "Tag": 0,
+    "Transform": {
+        "Forward": {
+            "x": -0.70710688829422,
+            "y": 0.7071069478988647,
+            "z": -3.725290298461914e-08
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 90.0,
+            "y": 45.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -50.0
+        },
+        "Right": {
+            "x": 0.7071070075035095,
+            "y": 0.7071068286895752,
+            "z": -5.21540641784668e-08
+        },
+        "Scale": {
+            "x": 0.009999999776482582,
+            "y": 0.009999999776482582,
+            "z": 0.009999999776482582
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 5.960464477539063e-08,
+            "z": 1.0
+        },
+        "mRightChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "mUpChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "mViewChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    },
+    "mName": "hitmarker"
+}

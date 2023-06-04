@@ -1,0 +1,184 @@
+{
+    "Childs": [
+        {
+            "Tag": 0,
+            "Transform": {
+                "Forward": {
+                    "x": 1.768297437365618e-07,
+                    "y": 0.0,
+                    "z": -1.0
+                },
+                "Offset": {
+                    "x": 0.2796478271484375,
+                    "y": 0.4761505126953125,
+                    "z": -1.59033203125
+                },
+                "Orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Position": {
+                    "x": 65.35913848876953,
+                    "y": 88.68843841552734,
+                    "z": -241.11558532714844
+                },
+                "Right": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 1.768297437365618e-07
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Up": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                }
+            },
+            "UseParentDirection": false,
+            "UseParentPos": true,
+            "mName": "ShootingPos"
+        },
+        {
+            "Tag": 0,
+            "Transform": {
+                "Forward": {
+                    "x": 1.768297437365618e-07,
+                    "y": 0.0,
+                    "z": -1.0
+                },
+                "Offset": {
+                    "x": 0.26738739013671875,
+                    "y": 0.9929733276367188,
+                    "z": 1.821746826171875
+                },
+                "Orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Position": {
+                    "x": 65.34687805175781,
+                    "y": 89.20526123046875,
+                    "z": -237.70350646972656
+                },
+                "Right": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 1.768297437365618e-07
+                },
+                "Scale": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 0.10000000149011612
+                },
+                "Up": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                }
+            },
+            "UseParentDirection": false,
+            "UseParentPos": true,
+            "mName": "AimPos"
+        }
+    ],
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 0.9999976754188538,
+                "y": 1.0,
+                "z": 0.9999899864196777
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Weapons/BlasterArms.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": false,
+            "mbZIndependent": false
+        },
+        {
+            "AimSpeed": 7.300000190734863,
+            "BulletSpeed": 1500.0,
+            "CoolDown": 0.009999999776482582,
+            "Enabled": true,
+            "FinalFov": 50.0,
+            "RecoilDistance": 0.4000000059604645,
+            "RecoilDistorsion": {
+                "x": 0.15000000596046448,
+                "y": 0.44999998807907104
+            },
+            "TargetFar": 50.0,
+            "Type": "class Weapon",
+            "angle_to_reload": -40.0,
+            "automatic_weapon": true,
+            "charger_size": 40,
+            "end_distance": 5.5,
+            "gun_damage": 5.0,
+            "infinity_ammo": false,
+            "initial_distance": 2.0,
+            "recoil_back_velocity": 40.33000183105469,
+            "recoil_front_velocity": 25.170000076293945,
+            "recoil_gun_angle": 1.0,
+            "reload_speed": 100.0,
+            "time_to_reload": 0.5,
+            "total_bullets": 240
+        },
+        {
+            "Enabled": true,
+            "Type": "class SoundEmitter",
+            "default_global": true,
+            "default_loop": false,
+            "default_pause": false,
+            "default_sound": "",
+            "default_volume": 1.0
+        }
+    ],
+    "Tag": 0,
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 1.0794906616210938,
+            "y": -1.7877120971679688,
+            "z": -3.5252532958984375
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 65.0794906616211,
+            "y": 88.21228790283203,
+            "z": -239.52525329589844
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 0.009999998845160007,
+            "y": 0.009999998845160007,
+            "z": 0.009999999776482582
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "Blaster"
+}

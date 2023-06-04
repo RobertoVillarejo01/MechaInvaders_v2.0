@@ -1,0 +1,69 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Enabled": true,
+            "Model": "Cube",
+            "Type": "class renderable",
+            "mbUseDefaultModel": true
+        }
+    ],
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 0.0,
+            "y": 14.835600852966309,
+            "z": -29.013607025146484
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        },
+        "mRightChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "mUpChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "mViewChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    },
+    "mName": "Box"
+}

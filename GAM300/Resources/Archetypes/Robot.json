@@ -1,0 +1,211 @@
+{
+    "Childs": [
+        {
+            "Tag": 0,
+            "Transform": {
+                "Forward": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -1.0
+                },
+                "Offset": {
+                    "x": 0.6053466796875,
+                    "y": 4.184654235839844,
+                    "z": 2.50079345703125
+                },
+                "Orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Position": {
+                    "x": 35.505348205566406,
+                    "y": -24.1547908782959,
+                    "z": 68.17928314208984
+                },
+                "Right": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 6.291999816894531,
+                    "y": 4.853000164031982,
+                    "z": 6.763999938964844
+                },
+                "Up": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                }
+            },
+            "UseParentDirection": false,
+            "UseParentPos": true,
+            "mName": "Head"
+        },
+        {
+            "Tag": 0,
+            "Transform": {
+                "Forward": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -1.0
+                },
+                "Offset": {
+                    "x": 0.7387199401855469,
+                    "y": -2.4185543060302734,
+                    "z": 1.998992919921875
+                },
+                "Orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Position": {
+                    "x": 35.63872146606445,
+                    "y": -30.757999420166016,
+                    "z": 67.67748260498047
+                },
+                "Right": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 20.913999557495117,
+                    "y": 8.312999725341797,
+                    "z": 12.86299991607666
+                },
+                "Up": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                }
+            },
+            "UseParentDirection": false,
+            "UseParentPos": true,
+            "mName": "Body"
+        }
+    ],
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Blitz/EnemyStar.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        },
+        {
+            "Drag": {
+                "x": 0.9900000095367432,
+                "y": 0.9900000095367432,
+                "z": 0.9900000095367432
+            },
+            "Enabled": true,
+            "Gravity": {
+                "x": 0.0,
+                "y": -200.0,
+                "z": 0.0
+            },
+            "Mass": 10.0,
+            "Type": "struct Rigidbody",
+            "Velocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Collider Offset": {
+                "x": 0.15770721435546875,
+                "y": -6.376073837280273,
+                "z": 2.431072235107422
+            },
+            "Collider Scale": {
+                "x": 2.700000047683716,
+                "y": 2.450320243835449,
+                "z": 2.5
+            },
+            "Collider Shape": "Spherical",
+            "Enabled": true,
+            "Ghost": false,
+            "Type": "struct DynamicCollider"
+        },
+        {
+            "Enabled": true,
+            "Type": "class Robot",
+            "cooldown": 0.0,
+            "range": 10.0,
+            "stunAnim": 0,
+            "velocity": 60.0
+        },
+        {
+            "Enabled": true,
+            "Type": "class Health"
+        },
+        {
+            "Body": null,
+            "Enabled": true,
+            "Head": null,
+            "Type": "class DamageZonesHandler"
+        },
+        {
+            "Enabled": true,
+            "Type": "class SoundEmitter",
+            "default_global": true,
+            "default_loop": false,
+            "default_pause": false,
+            "default_sound": "",
+            "default_volume": 1.0
+        }
+    ],
+    "Tag": 3,
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 34.900001525878906,
+            "y": -28.339445114135742,
+            "z": 65.6784896850586
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 0.4000000059604645,
+            "y": 0.4000000059604645,
+            "z": 0.4000000059604645
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "Robot"
+}

@@ -1,0 +1,7 @@
+1.- Open an exectutable with Ctrl + F5 and another with F5
+
+2.- If opened as Client input the server IP 
+
+3.- Wait ultil all the player we want to play are connected 
+
+3.1.- Press O to get out of the lobby

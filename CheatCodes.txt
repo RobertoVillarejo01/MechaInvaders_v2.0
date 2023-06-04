@@ -1,0 +1,14 @@
+TASK SYSTEM:
+	T + 1 = End Task
+	T + 2 = Start a random fixing task
+	T + 3 = Start a random reactor task
+
+WAVE SYSTEM:
+	Y + 1 = End Wave
+	Y + 2 = Start Wave
+	Y + 3 = Create an enemy in each of the active spawners
+	Y + 4 = Destroy all the enemies
+
+PLAYER:
+	U + 1 = Immortal
+	U + 2 = Increase money

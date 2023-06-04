@@ -1,0 +1,19 @@
+{
+    "System Configuration": {
+        "Cheats": false,
+        "DebugLines": false,
+        "FullScreen": false,
+        "Game Level": "FirstPlayable",
+        "IP": "127.0.0.1",
+        "LocalHost": true,
+        "Port": 8006,
+        "Resolution": {
+            "x": 1200,
+            "y": 720
+        },
+        "Sensitivity": 0.20000000298023224,
+        "Staring Level": "DigipenLogo",
+        "Title": "MechaInvaders",
+        "VSYNC": false
+    }
+}

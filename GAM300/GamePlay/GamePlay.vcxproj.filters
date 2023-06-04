@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Player">
+      <UniqueIdentifier>{ace57f48-b2e7-456b-9b8b-79c364d62ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Enemies">
+      <UniqueIdentifier>{2b7c4692-9dfc-47e9-a168-327df8965fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PathFinding">
+      <UniqueIdentifier>{c1eefbe8-1b4c-4a19-8469-a57341a20377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Componets">
+      <UniqueIdentifier>{b2807b65-03a9-4c84-9278-6462bb7c242c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Enemies\Robot">
+      <UniqueIdentifier>{cc723bbd-e510-40b3-856f-605a6cbc15fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Enemies\Fly">
+      <UniqueIdentifier>{d3cdd70a-9106-4f71-b2d3-9178a487e4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Spawner">
+      <UniqueIdentifier>{b40d01df-601a-4cfb-8444-dc94bdc8a976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PathFinding\Dijkstra">
+      <UniqueIdentifier>{c2bf39f8-b0a7-4e0d-abd6-7052c3b6ddbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PathFinding\NavigationalMesh">
+      <UniqueIdentifier>{f658716b-b3ba-4a8e-b04b-37f3ddf768d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Componets\LobbyMrg">
+      <UniqueIdentifier>{c69b5395-1ab4-4423-8938-ba8b420087cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Componets\NetGameplayMrg">
+      <UniqueIdentifier>{b650ca26-96a0-42fe-bc22-bf797270d98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Weapon">
+      <UniqueIdentifier>{8591e194-def0-4a29-863b-f8b130a11ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Bullet">
+      <UniqueIdentifier>{d68cf4ab-4072-4b06-871b-3cedf514ae32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\WaveSystem">
+      <UniqueIdentifier>{d5631579-3134-4493-a274-c76615f326e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Health">
+      <UniqueIdentifier>{900cc7d0-e9fd-481b-8b54-8542b41a8993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Player\PlayerCamera">
+      <UniqueIdentifier>{c0b221ca-28cb-4bb1-b6af-948d1399a23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HealthComp">
+      <UniqueIdentifier>{5a9703cc-1097-4869-b32d-a956b0a4ee46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UtilityComponents">
+      <UniqueIdentifier>{c2d7ff44-dc68-4235-8b2a-8c902876345c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Overlay">
+      <UniqueIdentifier>{274693d9-cf8a-406f-9e36-f444669b5838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TaskSystem">
+      <UniqueIdentifier>{4c554d06-c205-4034-b223-bedd0070811b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TaskSystem\FixingTask">
+      <UniqueIdentifier>{b1049f05-18f2-4e3d-be7c-9ee72ac9e89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HUD">
+      <UniqueIdentifier>{dc2de8fe-d485-44b4-b48b-3b81c78ddb97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HUD\HUDBar">
+      <UniqueIdentifier>{4fb26f1b-c4a4-4470-9edb-320aed942306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HUD\HUDlogic">
+      <UniqueIdentifier>{d621f39c-ded2-4b09-9904-a1545c9c7375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Doors">
+      <UniqueIdentifier>{8dbe6fda-26fa-4cea-96c4-ed25106cc7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Interaction">
+      <UniqueIdentifier>{86cfe926-49f6-45f0-86da-21584238fb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Interaction\InteractionComp">
+      <UniqueIdentifier>{2b824215-b8ea-44dd-8330-5b5b82a205b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Interaction\InteractionText">
+      <UniqueIdentifier>{7322f033-a5bb-47e1-9501-487d6fea8c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Player\NetworkPlayer">
+      <UniqueIdentifier>{36d57eae-0256-492d-b0b9-3309e907186f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\VendingMachines">
+      <UniqueIdentifier>{cf574024-9561-4630-aa1d-f7f14f10841f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{d0d3f3fe-e3d0-4776-b6f7-2d0e232abb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Rooms">
+      <UniqueIdentifier>{d2c070bf-3668-406b-92d3-9b96890ca117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TaskSystem\CommunicationTask">
+      <UniqueIdentifier>{962fe937-79a5-4ac3-aa6e-a03404a9282a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HUD\Score">
+      <UniqueIdentifier>{f9991eb0-9134-4049-82e0-771155e4bba2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Player\Player.h">
+      <Filter>src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemies\Robot\Robot.h">
+      <Filter>src\Enemies\Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinding\NavMesh.h">
+      <Filter>src\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemies\Fly\Fly.h">
+      <Filter>src\Enemies\Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spawner\Spawner.h">
+      <Filter>src\Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinding\Dijkstra.h">
+      <Filter>src\PathFinding\Dijkstra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Componets\LobbyMrg.h">
+      <Filter>src\Componets\LobbyMrg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Componets\NetGameplayMrg.h">
+      <Filter>src\Componets\NetGameplayMrg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bullet\Bullet.h">
+      <Filter>src\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WaveSystem\WaveSystem.h">
+      <Filter>src\WaveSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Weapon\Weapon.h">
+      <Filter>src\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Health\Health.h">
+      <Filter>src\Health</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player\PlayerCamera.h">
+      <Filter>src\Player\PlayerCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemies\DamageZones.h">
+      <Filter>src\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UtilityComponents\FadeOut.h">
+      <Filter>src\UtilityComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Overlay\DamageOverlay.h">
+      <Filter>src\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemies\Health\HealthComp.h" />
+    <ClInclude Include="src\TaskSystem\TaskSystem.h">
+      <Filter>src\TaskSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UtilityComponents\FadeInOut.h">
+      <Filter>src\UtilityComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemies\Health\HealthComp.h">
+      <Filter>src\HealthComp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TaskSystem\FixingTask\FixingTask.h">
+      <Filter>src\TaskSystem\FixingTask</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TaskSystem\TaskInfo.h">
+      <Filter>src\TaskSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HUD\HUDBar.h">
+      <Filter>src\HUD\HUDBar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HUD\HUDlogic.h">
+      <Filter>src\HUD\HUDlogic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Doors\Doors.h">
+      <Filter>src\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interaction\InteractionComp.h">
+      <Filter>src\Interaction\InteractionComp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interaction\InteractionText.h">
+      <Filter>src\Interaction\InteractionText</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player\NetworkPlayer.h">
+      <Filter>src\Player\NetworkPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemies\Health\HealthComp.h">
+      <Filter>src\HealthComp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VendingMachine\VendingMachine.h">
+      <Filter>src\VendingMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Game.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rooms\Rooms.h">
+      <Filter>src\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TaskSystem\CommunicationTask\CommunicationTask.h">
+      <Filter>src\TaskSystem\CommunicationTask</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Weapon\WeaponMachine.h">
+      <Filter>src\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HUD\Score.h">
+      <Filter>src\HUD\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Player\Player.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemies\Robot\Robot.cpp">
+      <Filter>src\Enemies\Robot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemies\Fly\Fly.cpp">
+      <Filter>src\Enemies\Fly</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spawner\Spawner.cpp">
+      <Filter>src\Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinding\Dijkstra.cpp">
+      <Filter>src\PathFinding\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinding\NavMesh.cpp">
+      <Filter>src\PathFinding\NavigationalMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Componets\LobbyMrg.cpp">
+      <Filter>src\Componets\LobbyMrg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Componets\NetGameplayMrg.cpp">
+      <Filter>src\Componets\NetGameplayMrg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bullet\Bullet.cpp">
+      <Filter>src\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WaveSystem\WaveSystem.cpp">
+      <Filter>src\WaveSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Weapon\Weapon.cpp">
+      <Filter>src\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Health\Health.cpp">
+      <Filter>src\Health</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player\PlayerCamera.cpp">
+      <Filter>src\Player\PlayerCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UtilityComponents\FadeOut.cpp">
+      <Filter>src\UtilityComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Overlay\DamageOverlay.cpp">
+      <Filter>src\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemies\Health\HealthComp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskSystem\TaskSystem.cpp">
+      <Filter>src\TaskSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UtilityComponents\FadeInOut.cpp">
+      <Filter>src\UtilityComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemies\Health\HealthComp.cpp">
+      <Filter>src\HealthComp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemies\DamageZones.cpp">
+      <Filter>src\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskSystem\FixingTask\FixingTask.cpp">
+      <Filter>src\TaskSystem\FixingTask</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskSystem\TaskInfo.cpp">
+      <Filter>src\TaskSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HUD\HUDBar.cpp">
+      <Filter>src\HUD\HUDBar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HUD\HUDlogic.cpp">
+      <Filter>src\HUD\HUDlogic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Doors\Doors.cpp">
+      <Filter>src\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interaction\InteractionComp.cpp">
+      <Filter>src\Interaction\InteractionComp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interaction\InteractionText.cpp">
+      <Filter>src\Interaction\InteractionText</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player\NetworkPlayer.cpp">
+      <Filter>src\Player\NetworkPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemies\Health\HealthComp.cpp">
+      <Filter>src\HealthComp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VendingMachine\VendingMachine.cpp">
+      <Filter>src\VendingMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Game.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rooms\Rooms.cpp">
+      <Filter>src\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskSystem\CommunicationTask\CommunicationTask.cpp">
+      <Filter>src\TaskSystem\CommunicationTask</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Weapon\WeaponMachine.cpp">
+      <Filter>src\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HUD\Score.cpp">
+      <Filter>src\HUD\Score</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GamePlay.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\gam150_InstallerTemplate_2020_April\gam150_InstallerTemplate_2020_April\MyGameIcon.ico" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,71 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/NewExports/Cupula.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false
+        }
+    ],
+    "Tag": 0,
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 3.5484466552734375,
+            "y": 134.91213989257813,
+            "z": 173.45245361328125
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 14.496000289916992,
+            "y": 13.329444885253906,
+            "z": 12.574999809265137
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        },
+        "mRightChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "mUpChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "mViewChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    },
+    "mName": "IntersectionCupula"
+}

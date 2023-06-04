@@ -1,0 +1,443 @@
+{
+    "Current Level": "MainMenu",
+    "Spaces": [
+        {
+            "GameObjects": [
+                {
+                    "Components": [
+                        {
+                            "Enabled": true,
+                            "Type": "class CameraComp",
+                            "mAngle": 60.0,
+                            "mCubeMap": "./../Resources/Textures/Cubemaps/blue/blue.cube",
+                            "mFar": 700.0,
+                            "mLightActionRadius": 300.0,
+                            "mNear": 0.05000000074505806,
+                            "mPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 53.154998779296875
+                            },
+                            "mShadowLightRadius": 150.0,
+                            "mTarget": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 52.154998779296875
+                            },
+                            "mbDefaultValues": true,
+                            "mbDrawDebug": false,
+                            "mbStaticCamera": false
+                        }
+                    ],
+                    "Tag": 1,
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 53.154998779296875
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        }
+                    },
+                    "UseParentDirection": false,
+                    "UseParentPos": true,
+                    "mName": "Camera"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 0.9960784316062927,
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            },
+                            "Enabled": true,
+                            "Model": "./../Resources/Model/Logos/Team.fbx",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbForward": true,
+                            "mbUseDefaultModel": false,
+                            "mbVisible": true,
+                            "mbZIndependent": false
+                        }
+                    ],
+                    "Tag": 1,
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 180.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -120.0
+                        },
+                        "Right": {
+                            "x": -1.0,
+                            "y": 8.940696716308594e-08,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 0.25,
+                            "y": 2.5,
+                            "z": 1.0
+                        },
+                        "Up": {
+                            "x": -8.940696716308594e-08,
+                            "y": -1.0,
+                            "z": 0.0
+                        }
+                    },
+                    "UseParentDirection": false,
+                    "UseParentPos": true,
+                    "mName": "Logo"
+                },
+                {
+                    "Components": [
+                        {
+                            "Ambient": {
+                                "x": 1.0,
+                                "y": 0.9999899864196777,
+                                "z": 0.9999899864196777
+                            },
+                            "Diffuse": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Direction": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Enabled": true,
+                            "Far": 0.0,
+                            "LightType": 0,
+                            "Near": 0.0,
+                            "Projection Size": 0.0,
+                            "Specular": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Type": "class LightComponent",
+                            "constAttenuation": 0.0,
+                            "linearAttenuation": 0.0,
+                            "mbEmitShadow": false,
+                            "quadrAttenuation": 0.0,
+                            "spotExponent": 0.0,
+                            "spotInnerAngle": 0.0,
+                            "spotOuterAngle": 0.0
+                        }
+                    ],
+                    "Tag": 1,
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -42.539005279541016
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        }
+                    },
+                    "UseParentDirection": false,
+                    "UseParentPos": true,
+                    "mName": "Light"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 1.0,
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            },
+                            "Enabled": true,
+                            "Model": "Cube",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbForward": false,
+                            "mbUseDefaultModel": true,
+                            "mbVisible": true,
+                            "mbZIndependent": false
+                        }
+                    ],
+                    "Tag": 1,
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 180.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -151.96058654785156
+                        },
+                        "Right": {
+                            "x": -1.0,
+                            "y": 8.940696716308594e-08,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 465.9930114746094,
+                            "y": 344.3999938964844,
+                            "z": 9.100000381469727
+                        },
+                        "Up": {
+                            "x": -8.940696716308594e-08,
+                            "y": -1.0,
+                            "z": 0.0
+                        }
+                    },
+                    "UseParentDirection": false,
+                    "UseParentPos": true,
+                    "mName": "Logo_copy_copy"
+                }
+            ],
+            "Space Name": "MainArea",
+            "Visible": true
+        },
+        {
+            "GameObjects": [
+                {
+                    "Components": [
+                        {
+                            "Enabled": true,
+                            "Type": "class CameraComp",
+                            "mAngle": 60.0,
+                            "mCubeMap": "./../Resources/Textures/Cubemaps/blue/blue.cube",
+                            "mFar": 700.0,
+                            "mLightActionRadius": 300.0,
+                            "mNear": 0.05000000074505806,
+                            "mPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 53.154998779296875
+                            },
+                            "mShadowLightRadius": 150.0,
+                            "mTarget": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 52.154998779296875
+                            },
+                            "mbDefaultValues": true,
+                            "mbDrawDebug": false,
+                            "mbStaticCamera": false
+                        },
+                        {
+                            "Color": {
+                                "w": 1.0,
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            },
+                            "Enabled": true,
+                            "Model": "Sphere",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbForward": false,
+                            "mbUseDefaultModel": true,
+                            "mbVisible": true,
+                            "mbZIndependent": false
+                        }
+                    ],
+                    "Tag": 1,
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 53.154998779296875
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        }
+                    },
+                    "UseParentDirection": false,
+                    "UseParentPos": true,
+                    "mName": "Camera"
+                },
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 1.0,
+                                "x": 1.0,
+                                "y": 0.9999899864196777,
+                                "z": 0.9999899864196777
+                            },
+                            "Enabled": true,
+                            "Model": "Cube",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbForward": false,
+                            "mbUseDefaultModel": true,
+                            "mbVisible": true,
+                            "mbZIndependent": false
+                        },
+                        {
+                            "Display": 3.0,
+                            "Enabled": true,
+                            "In": 1.0,
+                            "InMenu": true,
+                            "JustFadeOut": false,
+                            "Next level": "MainMenu",
+                            "Out": 2.0,
+                            "Type": "class FadeInOut",
+                            "transition": true
+                        }
+                    ],
+                    "Tag": 1,
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -50.0
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 415.4458923339844,
+                            "y": 258.3886413574219,
+                            "z": 32.24494552612305
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        }
+                    },
+                    "UseParentDirection": false,
+                    "UseParentPos": true,
+                    "mName": "FaderMainMenu_copy"
+                }
+            ],
+            "Space Name": "HUD",
+            "Visible": true
+        }
+    ]
+}

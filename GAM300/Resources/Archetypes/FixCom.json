@@ -1,0 +1,66 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 0.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/FixCommunications/FixCommunications.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        },
+        {
+            "Delay": 2.440000057220459,
+            "Enabled": true,
+            "FadeSpeed": 1.1299999952316284,
+            "Type": "class FadeInOut"
+        }
+    ],
+    "Tag": 1,
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 0.89737868309021,
+            "y": -7.175896167755127,
+            "z": -49.59376525878906
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 0.05375216528773308,
+            "y": 0.05375216528773308,
+            "z": 0.05375216528773308
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "FixCom"
+}

@@ -1,0 +1,60 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Notification/Notification.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": false,
+            "mbZIndependent": true
+        }
+    ],
+    "Tag": 1,
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": -0.9998999238014221,
+            "z": -0.01414291001856327
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": -0.9399795532226563,
+            "y": 26.812665939331055,
+            "z": 72.66448974609375
+        },
+        "Right": {
+            "x": 0.01414291001856327,
+            "y": -0.014141496270895004,
+            "z": 0.9997999668121338
+        },
+        "Scale": {
+            "x": 0.12906010448932648,
+            "y": 0.12906011939048767,
+            "z": 0.12906010448932648
+        },
+        "Up": {
+            "x": 0.9998999238014221,
+            "y": 0.0002000219392357394,
+            "z": -0.014141496270895004
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "Warning"
+}

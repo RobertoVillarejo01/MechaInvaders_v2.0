@@ -1,0 +1,90 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 0.5436370968818665,
+                "y": 0.9607843160629272,
+                "z": 0.3956170380115509
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Ship/WeaponMachine.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        },
+        {
+            "Enabled": true,
+            "Type": "class InteractionComp",
+            "active": true,
+            "mType": 4,
+            "mbTriggerAction": true,
+            "range": 25.0
+        },
+        {
+            "Enabled": true,
+            "Type": "class WeaponMachine",
+            "cost": 1000,
+            "weapon_name": "Blaster"
+        },
+        {
+            "Collider Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.65771484375
+            },
+            "Collider Scale": {
+                "x": 21.046598434448242,
+                "y": 16.13498306274414,
+                "z": 23.18606185913086
+            },
+            "Collider Shape": "OBB",
+            "Enabled": true,
+            "Ghost": false,
+            "Type": "struct StaticCollider"
+        }
+    ],
+    "Tag": 1,
+    "Transform": {
+        "Forward": {
+            "x": -2.419679567822186e-08,
+            "y": -1.0,
+            "z": 1.8926300526800333e-08
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": -90.0,
+            "y": 180.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": -886.2047729492188,
+            "y": -47.99919509887695,
+            "z": 666.7772216796875
+        },
+        "Right": {
+            "x": -0.7887423038482666,
+            "y": 7.450580596923828e-09,
+            "z": -0.6147242188453674
+        },
+        "Scale": {
+            "x": 0.49999985098838806,
+            "y": 0.5,
+            "z": 0.49999985098838806
+        },
+        "Up": {
+            "x": -0.6147242188453674,
+            "y": 2.9802322387695313e-08,
+            "z": 0.7887423038482666
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "WeaponMachine"
+}

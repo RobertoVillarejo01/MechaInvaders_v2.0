@@ -1,0 +1,122 @@
+[
+    {
+        "English": "Fullscreen",
+        "ID": 1,
+        "Spanish": "Pantalla Completa"
+    },
+    {
+        "English": "960x540",
+        "ID": 2,
+        "Spanish": "960x540"
+    },
+    {
+        "English": "1280x720",
+        "ID": 3,
+        "Spanish": "1280x720"
+    },
+    {
+        "English": "Billboarding Text",
+        "ID": 4,
+        "Spanish": "This text is centered"
+    },
+    {
+        "English": "Fixed Orientation Text",
+        "ID": 5,
+        "Spanish": "MECHA INVADERS"
+    },
+    {
+        "English": "Singleplayer",
+        "ID": 6,
+        "Spanish": "Un jugador"
+    },
+    {
+        "English": "Multiplayer (Server)",
+        "ID": 7,
+        "Spanish": "Cooperativo (Servidor)"
+    },
+    {
+        "English": "Multiplayer (Client)",
+        "ID": 8,
+        "Spanish": "Cooperativo (Cliente)"
+    },
+    {
+        "English": "Exit",
+        "ID": 9,
+        "Spanish": "Salir"
+    },
+    {
+        "English": "Settings",
+        "ID": 10,
+        "Spanish": "Ajustes"
+    },
+    {
+        "English": "Graphics",
+        "ID": 11,
+        "Spanish": "Graficos"
+    },
+    {
+        "English": "Audio",
+        "ID": 12,
+        "Spanish": "Audio"
+    },
+    {
+        "English": "Language",
+        "ID": 13,
+        "Spanish": "Idioma"
+    },
+    {
+        "English": "Back",
+        "ID": 14,
+        "Spanish": "Volver"
+    },
+    {
+        "English": "1600x900",
+        "ID": 15,
+        "Spanish": "1600x900"
+    },
+    {
+        "English": "1920x1080",
+        "ID": 16,
+        "Spanish": "1920x1080"
+    },
+    {
+        "English": "SFX Volume",
+        "ID": 17,
+        "Spanish": "Volumen SFX"
+    },
+    {
+        "English": "Music Volume",
+        "ID": 18,
+        "Spanish": "Volumen Musica"
+    },
+    {
+        "English": "English",
+        "ID": 19,
+        "Spanish": "Ingles"
+    },
+    {
+        "English": "Spanish",
+        "ID": 20,
+        "Spanish": "Espanol"
+    },
+    {
+        "English": "Press 'O' to play",
+        "ID": 21,
+        "Spanish": "Presiona 'O' para jugar"
+    },
+    {
+        "English": "Sensitivity",
+        "ID": 22,
+        "Spanish": "Sensibilidad"
+    },
+    {
+        "English": "Controls",
+        "ID": 23,
+        "Spanish": "Controles"
+    },
+    {
+        "English": "How To Play",
+        "ID": 24,
+        "Spanish": "Ayuda"
+    }
+]

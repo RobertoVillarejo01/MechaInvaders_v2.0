@@ -1,0 +1,122 @@
+{
+    "Childs": [
+        {
+            "Components": [
+                {
+                    "Color": {
+                        "w": 1.0,
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "Enabled": true,
+                    "Model": "./../Resources/Model/Ship/PasilloSmall.fbx",
+                    "Type": "class renderable",
+                    "mbEmitter": false,
+                    "mbUseDefaultModel": false,
+                    "mbVisible": true,
+                    "mbZIndependent": false
+                }
+            ],
+            "Tag": 1,
+            "Transform": {
+                "Forward": {
+                    "x": -1.4901161193847656e-08,
+                    "y": -1.0,
+                    "z": -1.4901161193847656e-08
+                },
+                "Offset": {
+                    "x": -3.576277265437966e-07,
+                    "y": 73.462890625,
+                    "z": -1.9073486328125e-06
+                },
+                "Orientation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 90.0
+                },
+                "Position": {
+                    "x": 635.7163696289063,
+                    "y": -24.0,
+                    "z": 569.0
+                },
+                "Right": {
+                    "x": 2.220446049250313e-16,
+                    "y": 1.4901161193847656e-08,
+                    "z": -1.0
+                },
+                "Scale": {
+                    "x": 0.6399999856948853,
+                    "y": 0.6399999856948853,
+                    "z": 0.6399999856948853
+                },
+                "Up": {
+                    "x": -1.0,
+                    "y": 1.4901161193847656e-08,
+                    "z": 0.0
+                }
+            },
+            "UseParentDirection": false,
+            "UseParentPos": true,
+            "mName": "PasilloSmall1_copy"
+        }
+    ],
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Ship/PasilloSmall.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        }
+    ],
+    "Tag": 1,
+    "Transform": {
+        "Forward": {
+            "x": -1.4901161193847656e-08,
+            "y": -1.0,
+            "z": -1.4901161193847656e-08
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 90.0,
+            "z": 90.0
+        },
+        "Position": {
+            "x": 709.1792602539063,
+            "y": -24.0,
+            "z": 569.0
+        },
+        "Right": {
+            "x": 2.220446049250313e-16,
+            "y": 1.4901161193847656e-08,
+            "z": -1.0
+        },
+        "Scale": {
+            "x": 0.6399999856948853,
+            "y": 0.6399999856948853,
+            "z": 0.6399999856948853
+        },
+        "Up": {
+            "x": -1.0,
+            "y": 1.4901161193847656e-08,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "PasilloDoble"
+}

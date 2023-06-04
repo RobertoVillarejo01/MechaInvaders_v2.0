@@ -1,0 +1,16 @@
+{
+    "System Configuration": {
+        "Camera Position": {
+            "x": 3599.860107421875,
+            "y": -1769.8631591796875,
+            "z": -4750.66357421875
+        },
+        "Camera Target": {
+            "x": 3633.376953125,
+            "y": -1795.0391845703125,
+            "z": -4806.72412109375
+        },
+        "Colliders Visible": false,
+        "Lighting Mode": 0
+    }
+}

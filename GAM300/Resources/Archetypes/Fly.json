@@ -1,0 +1,120 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Magnezone/Magnezone.fbx",
+            "Type": "class renderable",
+            "mbUseDefaultModel": false
+        },
+        {
+            "Drag": {
+                "x": 0.9900000095367432,
+                "y": 0.9900000095367432,
+                "z": 0.9900000095367432
+            },
+            "Enabled": true,
+            "Gravity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Mass": 1.0,
+            "Type": "struct Rigidbody",
+            "Velocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Collider Offset": {
+                "x": 0.40633392333984375,
+                "y": 2.5871543884277344,
+                "z": 2.0303802490234375
+            },
+            "Collider Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Collider Scale": {
+                "x": 14.0,
+                "y": 3.902421712875366,
+                "z": 7.0
+            },
+            "Collider Shape": "Cubic",
+            "Enabled": true,
+			"Ghost": false,
+            "Type": "struct DynamicCollider"
+        },
+        {
+            "Enabled": true,
+            "Type": "class Fly",
+            "bullet_velocity": 15.0,
+            "cooldown": 2.0,
+            "height": 0.0,
+            "movement_velocity": 8.0,
+            "range": 40.0,
+            "wingbeat_velocity": 0.0
+        }
+    ],
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 40.7374382019043,
+            "y": -55.61748123168945,
+            "z": -230.95030212402344
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 0.4544999301433563,
+            "y": 0.4544999897480011,
+            "z": 0.4544999301433563
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        },
+        "mRightChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "mUpChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "mViewChild": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    },
+    "mName": "Fly"
+}

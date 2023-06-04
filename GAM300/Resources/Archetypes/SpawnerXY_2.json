@@ -1,0 +1,171 @@
+{
+    "Components": [
+        {
+            "Enabled": true,
+            "Type": "class Spawner",
+            "activated": false,
+            "robot_begin1": {
+                "x": 0.0,
+                "y": -16.0,
+                "z": -14.0
+            },
+            "robot_begin2": {
+                "x": -10.0,
+                "y": -16.0,
+                "z": -12.0
+            },
+            "robot_begin3": {
+                "x": 10.0,
+                "y": -16.0,
+                "z": -12.0
+            },
+            "robot_end1": {
+                "x": 0.0,
+                "y": -16.0,
+                "z": 6.0
+            },
+            "robot_end2": {
+                "x": -10.0,
+                "y": -16.0,
+                "z": 4.0
+            },
+            "robot_end3": {
+                "x": 10.0,
+                "y": -16.0,
+                "z": 4.0
+            },
+            "room": 0
+        },
+        {
+            "Enabled": true,
+            "Type": "class ParticleSystem",
+            "circle": true,
+            "circle_turn90": true,
+            "mColorRange": {
+                "Begin": {
+                    "Begin": {
+                        "w": 0.0,
+                        "x": 0.44290655851364136,
+                        "y": 0.7090707421302795,
+                        "z": 0.9411764740943909
+                    },
+                    "End": {
+                        "w": 0.0,
+                        "x": 0.44290655851364136,
+                        "y": 0.7090707421302795,
+                        "z": 0.9411764740943909
+                    }
+                },
+                "End": {
+                    "Begin": {
+                        "w": 1.0,
+                        "x": 0.06805074214935303,
+                        "y": 0.2497318983078003,
+                        "z": 0.28921568393707275
+                    },
+                    "End": {
+                        "w": 1.0,
+                        "x": 0.06805074214935303,
+                        "y": 0.2497318983078003,
+                        "z": 0.28921568393707275
+                    }
+                }
+            },
+            "mEmitRate": 50.54999923706055,
+            "mLifeTimeRange": {
+                "Begin": 1.0499999523162842,
+                "End": 2.0
+            },
+            "mMaxParticles": 1000,
+            "mScaleRange": {
+                "Begin": {
+                    "Begin": {
+                        "x": 1.5,
+                        "y": 1.5,
+                        "z": 1.5
+                    },
+                    "End": {
+                        "x": 1.5,
+                        "y": 1.5,
+                        "z": 1.5
+                    }
+                },
+                "End": {
+                    "Begin": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "End": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                }
+            },
+            "mVelocityRange": {
+                "Begin": {
+                    "x": -5.0,
+                    "y": 3.0,
+                    "z": -5.0
+                },
+                "End": {
+                    "x": 5.0,
+                    "y": 3.0,
+                    "z": 5.0
+                }
+            },
+            "mbActive": true,
+            "mbLerpColor": true,
+            "mbLerpScale": false,
+            "mbRandomFinalColor": false,
+            "mbRandomFinalScale": false,
+            "mbRandomInitialColor": false,
+            "mbRandomInitialScale": false,
+            "mbVisible": true,
+            "mbZIndependent": false,
+            "radious": 9.0
+        }
+    ],
+    "Tag": 5,
+    "Transform": {
+        "Forward": {
+            "x": 0.9158215522766113,
+            "y": 1.4210854715202004e-14,
+            "z": 0.4015847146511078
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 447.70648193359375,
+            "y": -38.55326843261719,
+            "z": 515.6473999023438
+        },
+        "Right": {
+            "x": -0.4015847146511078,
+            "y": 1.709743457922741e-14,
+            "z": 0.9158215522766113
+        },
+        "Scale": {
+            "x": 0.12143977731466293,
+            "y": 0.12143998593091965,
+            "z": 0.12143977731466293
+        },
+        "Up": {
+            "x": -5.8296187091500494e-15,
+            "y": 1.0,
+            "z": -2.1586121358809808e-14
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "SpawnerXY_2"
+}

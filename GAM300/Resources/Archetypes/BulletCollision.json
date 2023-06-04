@@ -1,0 +1,157 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "Sphere",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": true,
+            "mbVisible": false,
+            "mbZIndependent": false
+        },
+        {
+            "Delay": 2.0,
+            "Enabled": true,
+            "FadeSpeed": 1.0,
+            "Type": "class FadeOut",
+            "destroy_object": true,
+            "initialize_triggering": true,
+            "time_to_stop_particles": 0.05000000074505806,
+            "use_particles": true
+        },
+        {
+            "Enabled": true,
+            "Type": "class ParticleSystem",
+            "mColorRange": {
+                "Begin": {
+                    "Begin": {
+                        "w": 1.0,
+                        "x": 1.0,
+                        "y": 0.886274516582489,
+                        "z": 0.0
+                    },
+                    "End": {
+                        "w": 1.0,
+                        "x": 1.0,
+                        "y": 0.886274516582489,
+                        "z": 0.0
+                    }
+                },
+                "End": {
+                    "Begin": {
+                        "w": 0.0,
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "End": {
+                        "w": 0.0,
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                }
+            },
+            "mEmitRate": 10.0,
+            "mLifeTimeRange": {
+                "Begin": 0.25,
+                "End": 0.25
+            },
+            "mMaxParticles": 100,
+            "mScaleRange": {
+                "Begin": {
+                    "Begin": {
+                        "x": 0.550000011920929,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "End": {
+                        "x": 0.550000011920929,
+                        "y": 0.5,
+                        "z": 0.5
+                    }
+                },
+                "End": {
+                    "Begin": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "End": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            },
+            "mVelocityRange": {
+                "Begin": {
+                    "x": -60.0,
+                    "y": -60.0,
+                    "z": -60.0
+                },
+                "End": {
+                    "x": 60.0,
+                    "y": 60.0,
+                    "z": 60.0
+                }
+            },
+            "mbActive": true,
+            "mbLerpColor": true,
+            "mbLerpScale": true,
+            "mbRandomFinalColor": false,
+            "mbRandomFinalScale": false,
+            "mbRandomInitialColor": false,
+            "mbRandomInitialScale": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        }
+    ],
+    "Tag": 1,
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 284.24005126953125,
+            "y": 104.91764068603516,
+            "z": -810.5762329101563
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "BulletCollision"
+}

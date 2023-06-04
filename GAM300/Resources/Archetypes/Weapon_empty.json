@@ -1,0 +1,60 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 0.9921568632125854,
+                "y": 0.019607843831181526,
+                "z": 0.019607843831181526
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/AK69/AK69.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        }
+    ],
+    "Tag": 0,
+    "Transform": {
+        "Forward": {
+            "x": 1.768297437365618e-07,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 1.0794906616210938,
+            "y": -1.9873504638671875,
+            "z": -4.717437744140625
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 65.0794906616211,
+            "y": 88.01264953613281,
+            "z": -240.71743774414063
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 1.768297437365618e-07
+        },
+        "Scale": {
+            "x": 0.10000000149011612,
+            "y": 0.10000000149011612,
+            "z": 0.10000000149011612
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "Weapon_empty"
+}

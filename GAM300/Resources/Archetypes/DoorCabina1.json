@@ -1,0 +1,192 @@
+{
+    "Childs": [
+        {
+            "Components": [
+                {
+                    "Color": {
+                        "w": 1.0,
+                        "x": 1.0,
+                        "y": 0.9999899864196777,
+                        "z": 0.9999899864196777
+                    },
+                    "Enabled": true,
+                    "Model": "./../Resources/Model/Ship/Door.fbx",
+                    "Type": "class renderable",
+                    "mbEmitter": false,
+                    "mbUseDefaultModel": false,
+                    "mbVisible": true,
+                    "mbZIndependent": false
+                },
+                {
+                    "Enabled": true,
+                    "Type": "class Door",
+                    "cost": 750,
+                    "door_speed": 0.019999999552965164,
+                    "end_pos": {
+                        "x": -42.92100143432617,
+                        "y": 44.366756439208984,
+                        "z": -89.07369995117188
+                    }
+                },
+                {
+                    "Enabled": true,
+                    "Type": "class InteractionComp",
+                    "active": true,
+                    "mType": 0,
+                    "mbTriggerAction": false,
+                    "range": 30.0
+                },
+                {
+                    "Collider Offset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Collider Scale": {
+                        "x": 61.373573303222656,
+                        "y": 57.01105880737305,
+                        "z": 5.048941612243652
+                    },
+                    "Collider Shape": "Cubic",
+                    "Enabled": true,
+                    "Ghost": false,
+                    "Type": "struct StaticCollider"
+                }
+            ],
+            "Tag": 9,
+            "Transform": {
+                "Forward": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -1.0
+                },
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 209.45936584472656
+                },
+                "Orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Position": {
+                    "x": -0.2932000160217285,
+                    "y": -30.160770416259766,
+                    "z": 342.81439208984375
+                },
+                "Right": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.399999976158142,
+                    "y": 1.4500000476837158,
+                    "z": 1.0
+                },
+                "Up": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                }
+            },
+            "UseParentDirection": false,
+            "UseParentPos": false,
+            "mName": "DoorCabina2"
+        }
+    ],
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 0.9999899864196777,
+                "z": 0.9999899864196777
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Ship/Door.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        },
+        {
+            "Enabled": true,
+            "Type": "class Door",
+            "cost": 750,
+            "door_speed": 0.019999999552965164,
+            "end_pos": {
+                "x": -0.2932000160217285,
+                "y": 24.339000701904297,
+                "z": 133.3550262451172
+            }
+        },
+        {
+            "Enabled": true,
+            "Type": "class InteractionComp",
+            "active": true,
+            "mType": 0,
+            "mbTriggerAction": false,
+            "range": 30.0
+        },
+        {
+            "Collider Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Collider Scale": {
+                "x": 61.373573303222656,
+                "y": 57.01105880737305,
+                "z": 5.048941612243652
+            },
+            "Collider Shape": "Cubic",
+            "Enabled": true,
+            "Ghost": false,
+            "Type": "struct StaticCollider"
+        }
+    ],
+    "Tag": 9,
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": -0.2932000160217285,
+            "y": -30.160770416259766,
+            "z": 133.3550262451172
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 1.399999976158142,
+            "y": 1.4500000476837158,
+            "z": 1.0
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": false,
+    "mName": "DoorCabina1"
+}

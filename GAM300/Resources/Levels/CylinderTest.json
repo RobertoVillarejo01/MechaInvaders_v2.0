@@ -1,0 +1,389 @@
+{
+    "Current Level": "cylindersTest",
+    "Spaces": [
+        {
+            "GameObjects": [
+                {
+                    "Components": [
+                        {
+                            "Color": {
+                                "w": 1.0,
+                                "x": 0.7607843279838562,
+                                "y": 0.6274510025978088,
+                                "z": 0.6274510025978088
+                            },
+                            "Enabled": true,
+                            "Model": "Cube",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": true
+                        },
+                        {
+                            "Collider Offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Collider Scale": {
+                                "x": 56.130340576171875,
+                                "y": 6.213291645050049,
+                                "z": 123.20787811279297
+                            },
+                            "Collider Shape": "OBB",
+                            "Enabled": true,
+                            "Ghost": false,
+                            "Type": "struct StaticCollider"
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": -0.02390219457447529,
+                            "y": 0.0017231035744771361,
+                            "z": -0.9997128248214722
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": -69.3399658203125,
+                            "y": -5.064914703369141,
+                            "z": 7.103720188140869
+                        },
+                        "Right": {
+                            "x": 0.8124788403511047,
+                            "y": -0.5826324820518494,
+                            "z": -0.02042984403669834
+                        },
+                        "Scale": {
+                            "x": 56.13034439086914,
+                            "y": 6.213291168212891,
+                            "z": 123.2078857421875
+                        },
+                        "Up": {
+                            "x": 0.5825005769729614,
+                            "y": 0.8127339482307434,
+                            "z": -0.012526221573352814
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "Floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "Drag": {
+                                "x": 0.9900000095367432,
+                                "y": 0.9900000095367432,
+                                "z": 0.9900000095367432
+                            },
+                            "Enabled": true,
+                            "Gravity": {
+                                "x": 0.0,
+                                "y": -9.0,
+                                "z": 0.0
+                            },
+                            "Mass": 1.0,
+                            "Type": "struct Rigidbody",
+                            "Velocity": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Collider Offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Collider Scale": {
+                                "x": 5.0,
+                                "y": 5.0,
+                                "z": 5.0
+                            },
+                            "Collider Shape": "Spherical",
+                            "Enabled": true,
+                            "Ghost": false,
+                            "Type": "struct DynamicCollider"
+                        },
+                        {
+                            "Color": {
+                                "w": 1.0,
+                                "x": 0.8352941274642944,
+                                "y": 0.7450980544090271,
+                                "z": 0.7450980544090271
+                            },
+                            "Enabled": true,
+                            "Model": "Sphere",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": true
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": -61.327999114990234,
+                            "y": 23.0939998626709,
+                            "z": 12.366373062133789
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 5.0,
+                            "y": 5.0,
+                            "z": 5.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "cylinder"
+                },
+                {
+                    "Components": [
+                        {
+                            "Enabled": true,
+                            "Type": "class CameraComp",
+<<<<<<< HEAD
+                            "mCubeMap": "./../Resources/Textures/Cubemaps/blue/blue.cube",
+=======
+                            "mAngle": 60.0,
+                            "mFar": 700.0,
+                            "mNear": 0.05000000074505806,
+>>>>>>> Development
+                            "mPosition": {
+                                "x": -58.97941970825195,
+                                "y": 23.100177764892578,
+                                "z": 109.09683990478516
+                            },
+                            "mTarget": {
+                                "x": -59.97941970825195,
+                                "y": 23.100177764892578,
+                                "z": 100.0
+                            },
+                            "mbDefaultValues": false,
+                            "mbStaticCamera": true
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": -1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": -58.97941970825195,
+                            "y": 23.100177764892578,
+                            "z": 109.09683990478516
+                        },
+                        "Right": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "cam"
+                },
+                {
+                    "Components": [
+                        {
+                            "Drag": {
+                                "x": 0.9900000095367432,
+                                "y": 0.9900000095367432,
+                                "z": 0.9900000095367432
+                            },
+                            "Enabled": true,
+                            "Gravity": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Mass": 1.0,
+                            "Type": "struct Rigidbody",
+                            "Velocity": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 21.0
+                            }
+                        },
+                        {
+                            "Collider Offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Collider Scale": {
+                                "x": 5.0,
+                                "y": 5.0,
+                                "z": 5.0
+                            },
+                            "Collider Shape": "Capsule",
+                            "Enabled": true,
+                            "Ghost": false,
+                            "Type": "struct DynamicCollider"
+                        },
+                        {
+                            "Color": {
+                                "w": 1.0,
+                                "x": 0.8352941274642944,
+                                "y": 0.7450980544090271,
+                                "z": 0.7450980544090271
+                            },
+                            "Enabled": true,
+                            "Model": "Sphere",
+                            "Type": "class renderable",
+                            "mbEmitter": false,
+                            "mbUseDefaultModel": true
+                        }
+                    ],
+                    "Transform": {
+                        "Forward": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": -61.328495025634766,
+                            "y": 31.084564208984375,
+                            "z": -33.420616149902344
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 5.0,
+                            "y": 5.0,
+                            "z": 5.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "mRightChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mUpChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "mViewChild": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "mName": "cylinder_copy"
+                }
+            ],
+            "Space Name": "MainArea",
+            "Visible": true
+        }
+    ]
+}

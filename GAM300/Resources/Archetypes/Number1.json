@@ -1,0 +1,60 @@
+{
+    "Components": [
+        {
+            "Color": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Enabled": true,
+            "Model": "./../Resources/Model/Numbers/Number1.fbx",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": false,
+            "mbVisible": true,
+            "mbZIndependent": false
+        }
+    ],
+    "Tag": 1,
+    "Transform": {
+        "Forward": {
+            "x": 0.014142867177724838,
+            "y": 8.865043810146744e-08,
+            "z": 0.9998999834060669
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": -11.748796463012695,
+            "y": 14.276122093200684,
+            "z": -56.71784973144531
+        },
+        "Right": {
+            "x": -0.9998999834060669,
+            "y": -8.61776143779025e-08,
+            "z": 0.014142867177724838
+        },
+        "Scale": {
+            "x": 0.05936736613512039,
+            "y": 0.05936736613512039,
+            "z": 0.05936736613512039
+        },
+        "Up": {
+            "x": -8.74227694680485e-08,
+            "y": 1.0,
+            "z": -8.742277657347586e-08
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "Number1"
+}
