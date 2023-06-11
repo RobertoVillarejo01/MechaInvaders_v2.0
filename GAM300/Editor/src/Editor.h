@@ -44,6 +44,7 @@ public:
 	void Render();
 	void Unload();
 	void SetPause(bool set);
+	void OnLevelChanged();
 	
 	//windows in screen
 	void MainBar();

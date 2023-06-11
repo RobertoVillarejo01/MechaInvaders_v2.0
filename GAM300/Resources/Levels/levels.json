@@ -1,10 +1,12 @@
 {
     "Levels": [
+        "Lighting",
+        "DemoLevel",
         "FirstPlayable",
         "LobbyLevel",
-        "MainMenu",
-		"FmodLogo",
-		"TeamLogo",
-		"DigipenLogo"
+        "CylinderTest",
+		"Physics",
+		"Playtest",
+        "MainMenu"
     ]
 }

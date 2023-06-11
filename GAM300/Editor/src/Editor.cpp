@@ -186,6 +186,17 @@ void Editor::Unload()
 	mConfig.Save();
 }
 
+void Editor::OnLevelChanged()
+{
+	selectedObj = nullptr;
+	mDraggingMouse = false;
+	IsDragging = false;
+	mMultipleEdition = false;
+
+	mSelectedObjects.clear();
+	mCollidersInScene.clear();
+}
+
 void Editor::SetPause(bool set)
 {
 	if (set == mbInEditor) return;

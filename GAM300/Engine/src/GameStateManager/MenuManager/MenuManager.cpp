@@ -488,7 +488,12 @@ void MenuComp::Button::Render(Transform const& tr)
 void MenuComp::Initialize()
 {
 	auto obj = Scene.FindObject("MenuEmitter");
-	emitter = obj->GetComponentType<SoundEmitter>();
+	if (obj) {
+		emitter = obj->GetComponentType<SoundEmitter>();
+	}
+	else {
+		std::cerr << "Could not find MenuEmitter" << std::endl;
+	}
 
 	//#serdada, sorry
 	auto fader_main_menu = Scene.FindObject("FaderMainMenu");

@@ -1,0 +1,295 @@
+{
+    "Childs": [
+        {
+            "Childs": [
+                {
+                    "Tag": 0,
+                    "Transform": {
+                        "Forward": {
+                            "x": 1.768297437365618e-07,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.9655227661132813,
+                            "z": -1.9121209383010864
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 65.0794906616211,
+                            "y": 88.9781723022461,
+                            "z": -242.6295623779297
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 1.768297437365618e-07
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        }
+                    },
+                    "UseParentDirection": false,
+                    "UseParentPos": true,
+                    "mName": "ShootingPos"
+                },
+                {
+                    "Tag": 0,
+                    "Transform": {
+                        "Forward": {
+                            "x": 1.768297437365618e-07,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        "Offset": {
+                            "x": 0.00028228759765625,
+                            "y": 1.4261016845703125,
+                            "z": 2.3691892623901367
+                        },
+                        "Orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 65.07977294921875,
+                            "y": 89.43875122070313,
+                            "z": -238.34825134277344
+                        },
+                        "Right": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 1.768297437365618e-07
+                        },
+                        "Scale": {
+                            "x": 0.10000000149011612,
+                            "y": 0.10000000149011612,
+                            "z": 0.10000000149011612
+                        },
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        }
+                    },
+                    "UseParentDirection": false,
+                    "UseParentPos": true,
+                    "mName": "AimPos"
+                }
+            ],
+            "Components": [
+                {
+                    "Color": {
+                        "w": 1.0,
+                        "x": 0.9921568632125854,
+                        "y": 0.019607843831181526,
+                        "z": 0.019607843831181526
+                    },
+                    "Enabled": true,
+                    "Model": "./../Resources/Model/AK69/AK69.fbx",
+                    "Type": "class renderable",
+                    "mbEmitter": false,
+                    "mbUseDefaultModel": false,
+                    "mbVisible": true,
+                    "mbZIndependent": false
+                },
+                {
+                    "Enabled": true,
+                    "Type": "class SoundEmitter",
+                    "default_global": true,
+                    "default_loop": false,
+                    "default_pause": false,
+                    "default_sound": "",
+                    "default_volume": 1.0
+                }
+            ],
+            "Tag": 0,
+            "Transform": {
+                "Forward": {
+                    "x": 1.768297437365618e-07,
+                    "y": 0.0,
+                    "z": -1.0
+                },
+                "Offset": {
+                    "x": 1.0794906616210938,
+                    "y": -1.9873504638671875,
+                    "z": -4.717437744140625
+                },
+                "Orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Position": {
+                    "x": 65.0794906616211,
+                    "y": 88.01264953613281,
+                    "z": -240.71743774414063
+                },
+                "Right": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 1.768297437365618e-07
+                },
+                "Scale": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 0.10000000149011612
+                },
+                "Up": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                }
+            },
+            "UseParentDirection": false,
+            "UseParentPos": true,
+            "mName": "Weapon"
+        }
+    ],
+    "Components": [
+        {
+            "Drag": {
+                "x": 0.9900000095367432,
+                "y": 0.9900000095367432,
+                "z": 0.9900000095367432
+            },
+            "Enabled": true,
+            "Gravity": {
+                "x": 0.0,
+                "y": -9.800000190734863,
+                "z": 0.0
+            },
+            "Mass": 7.0,
+            "Type": "struct Rigidbody",
+            "Velocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Collider Offset": {
+                "x": 0.0,
+                "y": -16.41712188720703,
+                "z": 0.0
+            },
+            "Collider Scale": {
+                "x": 3.0,
+                "y": 14.973445892333984,
+                "z": 3.0
+            },
+            "Collider Shape": "Spherical",
+            "Enabled": true,
+            "Ghost": false,
+            "Type": "struct DynamicCollider"
+        },
+        {
+            "Enabled": true,
+            "Type": "class SoundListener",
+            "listenerID": 1,
+            "max_distance": 50.0,
+            "min_distance": 0.0
+        },
+        {
+            "Color": {
+                "w": 0.003985645715147257,
+                "x": 0.9964114427566528,
+                "y": 0.05978468433022499,
+                "z": 0.05978468433022499
+            },
+            "Enabled": true,
+            "Model": "Cube",
+            "Type": "class renderable",
+            "mbEmitter": false,
+            "mbUseDefaultModel": true,
+            "mbVisible": true,
+            "mbZIndependent": false
+        },
+        {
+            "Enabled": true,
+            "Type": "class Health"
+        },
+        {
+            "Collider Offset": {
+                "x": 0.0,
+                "y": -5.383491516113281,
+                "z": 0.0
+            },
+            "Collider Scale": {
+                "x": 3.0,
+                "y": 16.504520416259766,
+                "z": 3.0
+            },
+            "Collider Shape": "Cubic",
+            "Enabled": true,
+            "Ghost": false,
+            "Type": "struct DynamicCollider"
+        },
+        {
+            "Enabled": true,
+            "Type": "class SoundEmitter",
+            "default_global": true,
+            "default_loop": false,
+            "default_pause": false,
+            "default_sound": "",
+            "default_volume": 1.0
+        },
+        {
+            "Enabled": true,
+            "Type": "class NetworkPlayer"
+        }
+    ],
+    "Tag": 2,
+    "Transform": {
+        "Forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Position": {
+            "x": 64.0,
+            "y": 90.0,
+            "z": -236.0
+        },
+        "Right": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 3.0,
+            "y": 38.83182907104492,
+            "z": 3.0
+        },
+        "Up": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        }
+    },
+    "UseParentDirection": false,
+    "UseParentPos": true,
+    "mName": "NetPlayer"
+}

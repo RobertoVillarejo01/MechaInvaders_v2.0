@@ -89,7 +89,7 @@ namespace GFX {
 		// For point lights however a cube map
 		else if (_type == Framebuffer::TextureType::CubeMap) {
 			glBindTexture(GL_TEXTURE_CUBE_MAP, mDepthTexture);
-			glTexStorage2D(GL_TEXTURE_CUBE_MAP, 10, GL_DEPTH_COMPONENT24, _size.x, _size.y);
+		//	glTexStorage2D(GL_TEXTURE_CUBE_MAP, 10, GL_DEPTH_COMPONENT24, _size.x, _size.y);
 			for (unsigned i = 0; i < 6; ++i) {
 				glTexImage2D(GL_TEXTURE_CUBE_MAP_POSITIVE_X + i, 0, GL_DEPTH_COMPONENT,
 					_size.x, _size.y, 0, GL_DEPTH_COMPONENT, GL_FLOAT, NULL);

@@ -87,6 +87,7 @@ namespace GFX {
 		//return;
 		// Enable the debug output and set our custom callback function
 		glEnable(GL_DEBUG_OUTPUT);
+		glEnable(GL_DEBUG_OUTPUT_SYNCHRONOUS);
 		glDebugMessageCallback(openglCallbackFunction, 0);
 
 		// This should give an error, since we are binding a buffer that has not

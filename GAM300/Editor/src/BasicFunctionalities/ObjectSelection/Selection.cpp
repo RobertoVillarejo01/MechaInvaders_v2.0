@@ -131,7 +131,7 @@ void Editor::RenderPreviewObject(GameObject* _obj, const glm::vec4& _color)
 
 	//TODO
 	//if obj is in a visible space else , get another obj until in spacegeometry::obb obbSelection;
-	if (_obj)
+	if (_obj && _obj->GetSpace())
 	{
 		// If the object has a renderable component, it likely has a mesh
 		auto* it_render = _obj->GetComponentType<renderable>();

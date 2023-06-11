@@ -23,6 +23,10 @@ namespace {
 
 void GameStateManager::Free()
 {
+#ifdef EDITOR
+	EditorMgr.OnLevelChanged();
+#endif
+
 	MenuMgr.Reset();
 	WaveSys.Shutdown();
 	TaskSys.Shutdown();
@@ -264,6 +268,10 @@ void GameStateManager::GameLoop()
 
 			SystemUpdate();
 
+			if (KeyDown(Key::A) && KeyDown(Key::R)) {
+				GSM.SetNextLevel("FirstPlayable");
+			}
+
 			if (gbPrintRenderTime) {
 				glGenQueries(4, RenderMgr.queryID);
 				glQueryCounter(RenderMgr.queryID[0], GL_TIMESTAMP);
@@ -412,19 +420,26 @@ nlohmann::json& SystemConfig::operator<<(nlohmann::json& j) const
 
 void SystemConfig::operator>>(nlohmann::json& j)
 {
-	j["System Configuration"]["Resolution"] >> mWindowSize;
-	j["System Configuration"]["FullScreen"] >> mbFullScreen;
-	j["System Configuration"]["DebugLines"] >> mbDbgLines;
 	j["System Configuration"]["Cheats"] >> mbCheats;
-	j["System Configuration"]["VSYNC"] >> mbVsync;
-	j["System Configuration"]["Staring Level"] >> mStartingLevel;
+	j["System Configuration"]["DebugLines"] >> mbDbgLines;
+	j["System Configuration"]["FullScreen"] >> mbFullScreen;
 	j["System Configuration"]["Game Level"] >> mGameLevel;
+	j["System Configuration"]["Resolution"] >> mWindowSize;
 	j["System Configuration"]["Title"] >> mWindowTitle;
-	j["System Configuration"]["LocalHost"] >> mbLocalHost;
-	j["System Configuration"]["IP"] >> mbIP;
-	j["System Configuration"]["Port"] >> mbPort;
-	j["System Configuration"]["Sensitivity"] >> mSensitivity;
+	j["System Configuration"]["Staring Level"] >> mStartingLevel;
+	j["System Configuration"]["VSYNC"] >> mbVsync;
 
+	if (j["System Configuration"].find("LocalHost") != j["System Configuration"].end())
+	{
+		j["System Configuration"]["LocalHost"] >> mbLocalHost;
+		j["System Configuration"]["IP"] >> mbIP;
+		j["System Configuration"]["Port"] >> mbPort;
+		j["System Configuration"]["Sensitivity"] >> mSensitivity;
+	}
+	else
+	{
+		std::cerr << "Could not find LocalHost in System config file (Resources//config.json)" << std::endl;
+	}
 }
 
 SystemConfig& SystemConfig::operator=(const SystemConfig& rhs)
